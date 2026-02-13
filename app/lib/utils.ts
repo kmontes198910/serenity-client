@@ -1,7 +1,7 @@
-import type { ClassValue } from "clsx"
-import { clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
 
+type ClassValue = string | number | bigint | boolean | null | undefined | ClassValue[]
+
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(inputs.flat(Infinity).filter(Boolean).join(' '))
 }

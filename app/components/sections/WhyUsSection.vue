@@ -25,7 +25,7 @@ const pillars = computed(() =>
         <div v-reveal:left class="relative">
           <div class="relative rounded-2xl overflow-hidden">
             <img
-              src="/images/results.jpg"
+              src="/images/results.webp"
               alt="Clinical professional reviewing results with patient at Serenity Behavioral Services"
               class="w-full aspect-[3/4] object-cover rounded-2xl"
               loading="lazy"
