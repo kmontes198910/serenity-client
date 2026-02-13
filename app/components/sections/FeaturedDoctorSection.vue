@@ -67,7 +67,7 @@ const highlights = computed(() =>
         <div v-reveal:right class="relative">
           <div class="relative rounded-2xl overflow-hidden">
             <img
-              src="/images/businesswoman.jpg"
+              src="/images/businesswoman.webp"
               alt="Clinical Director at Serenity Behavioral Services"
               class="w-full aspect-[3/4] object-cover object-top rounded-2xl"
               loading="lazy"

@@ -42,10 +42,11 @@ function cardTransform(speed: number) {
       </div>
 
       <img
-        src="/images/hero_doc.png"
+        src="/images/hero_doc.webp"
         alt="Behavioral health professional providing care at Serenity Behavioral Services"
         class="absolute bottom-0 right-0 h-[90%] w-auto object-contain hue-rotate-[8deg] saturate-[0.92] z-[1]"
         loading="eager"
+        fetchpriority="high"
       />
     </div>
 

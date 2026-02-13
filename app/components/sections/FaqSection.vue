@@ -33,7 +33,7 @@ function toggle(index: number) {
 
           <div v-reveal="{ delay: 200 }" class="relative mt-8">
             <img
-              src="/images/man-thinking.png"
+              src="/images/man-thinking.webp"
               alt="Man thinking about frequently asked questions"
               class="w-full max-w-md mx-auto object-contain"
               loading="lazy"
