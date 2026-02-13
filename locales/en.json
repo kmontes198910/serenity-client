@@ -1,0 +1,429 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "team": "Our Team",
+    "contact": "Contact",
+    "testimonials": "Testimonials",
+    "faq": "FAQ"
+  },
+  "buttons": {
+    "bookAppointment": "Book Appointment",
+    "getStarted": "Get Started",
+    "getStartedToday": "Get Started Today",
+    "viewAllServices": "View All Services",
+    "learnMore": "Learn More About Us",
+    "callUs": "Call Us",
+    "sendRequest": "Send Request",
+    "viewFullTeam": "View Full Team",
+    "meetFullTeam": "Meet Full Team",
+    "bookNow": "Book Now"
+  },
+  "badges": {
+    "medicaidProvider": "Medicaid Provider Type 14",
+    "licensedStaff": "Licensed Staff",
+    "courtApproved": "Court Approved",
+    "hipaaCompliant": "HIPAA Compliant",
+    "acceptingReferrals": "Accepting New Referrals"
+  },
+  "labels": {
+    "phone": "Phone",
+    "alternative": "Alternative",
+    "email": "Email",
+    "location": "Location",
+    "contactUs": "Contact Us",
+    "emailSupport": "Email Support",
+    "onlineAppointment": "Online Appointment",
+    "telehealth": "Telehealth",
+    "hours": "Hours",
+    "fullName": "Full Name",
+    "service": "Service",
+    "message": "Message",
+    "clinicalDirector": "Clinical Director",
+    "callUs": "Call Us"
+  },
+  "placeholders": {
+    "yourFullName": "Your full name",
+    "yourEmail": "your{'@'}email.com",
+    "phoneNumber": "(702) 000-0000",
+    "selectService": "Select a service",
+    "tellUsNeeds": "Tell us about your needs..."
+  },
+  "hero": {
+    "title": "Evidence-Based",
+    "highlight": "Behavioral",
+    "titleEnd": "Health Care",
+    "subtitle": "Comprehensive mental health services in Las Vegas, Nevada. Trusted by courts, community partners, and individuals for quality outpatient treatment.",
+    "nowOpen": "Now Open",
+    "acceptingReferrals": "Accepting Referrals",
+    "licensedClinicalStaff": "Licensed Clinical Staff",
+    "telehealth": "Telehealth",
+    "telehealthSub": "Virtual Sessions Available"
+  },
+  "stats": {
+    "servicesOffered": "Services Offered",
+    "treatmentPrograms": "Treatment Programs",
+    "licensedClinicians": "Licensed Clinicians",
+    "evidenceBasedCare": "Evidence-Based Care"
+  },
+  "facilities": {
+    "overline": "About Our Practice",
+    "title": "Comprehensive Behavioral Health",
+    "highlight": "Services",
+    "description": "Serenity Behavioral Services is a Medicaid-enrolled outpatient clinic delivering structured, evidence-based treatment for individuals and families in the Las Vegas community.",
+    "openingHours": "Opening Hours",
+    "features": {
+      "0": "Individual & Group Psychotherapy",
+      "1": "Court-Referred Evaluations",
+      "2": "Intensive Outpatient Program (IOP)",
+      "3": "Psychosocial Rehabilitation (PSR)",
+      "4": "Trauma-Focused Treatment (EMDR)",
+      "5": "Telehealth via VSee Platform"
+    },
+    "hours": {
+      "0": { "day": "Monday - Friday", "time": "9:00 AM - 5:00 PM" },
+      "1": { "day": "Saturday", "time": "By Appointment" },
+      "2": { "day": "Sunday", "time": "Closed" }
+    }
+  },
+  "services": {
+    "overline": "Our Services",
+    "title": "Comprehensive Treatment",
+    "highlight": "Programs",
+    "description": "From diagnostic evaluations to intensive outpatient programs, we provide a full continuum of evidence-based care tailored to each individual's needs.",
+    "items": {
+      "evaluations": {
+        "title": "Mental Health Evaluations",
+        "description": "Comprehensive diagnostic assessments and court-referred evaluations. Clear, defensible documentation aligned with Medicaid, state, and federal standards.",
+        "features": {
+          "0": "Comprehensive diagnostic assessments",
+          "1": "Court-referred & court-ordered evaluations",
+          "2": "Defensible clinical documentation",
+          "3": "Medicaid-compliant reporting"
+        }
+      },
+      "psychotherapy": {
+        "title": "Individual Psychotherapy",
+        "description": "Evidence-based counseling using CBT, DBT, ACT, and REBT to address thinking patterns, emotional regulation, and lasting behavioral change.",
+        "features": {
+          "0": "Cognitive Behavioral Therapy (CBT)",
+          "1": "Dialectical Behavior Therapy (DBT)",
+          "2": "Acceptance & Commitment Therapy (ACT)",
+          "3": "Rational Emotive Behavioral Therapy"
+        }
+      },
+      "iop": {
+        "title": "Intensive Outpatient Program",
+        "description": "Structured treatment with multiple weekly sessions for individuals needing more support than weekly therapy without inpatient hospitalization.",
+        "features": {
+          "0": "Multiple sessions per week",
+          "1": "Symptom stabilization",
+          "2": "Coping skills & behavioral regulation",
+          "3": "Active progress tracking"
+        }
+      },
+      "psr": {
+        "title": "Psychosocial Rehabilitation",
+        "description": "Skills-based, goal-oriented services to help individuals develop daily living, social, and coping skills for greater independence.",
+        "features": {
+          "0": "Emotional regulation training",
+          "1": "Communication & social skills",
+          "2": "Routine building & life skills",
+          "3": "Community functioning support"
+        }
+      },
+      "trauma": {
+        "title": "Trauma-Focused Treatment",
+        "description": "Specialized trauma-informed care including EMDR, TF-CBT, CPT, and stabilization strategies for PTSD, anxiety, and abuse survivors.",
+        "features": {
+          "0": "EMDR Therapy",
+          "1": "Trauma-Focused CBT",
+          "2": "Cognitive Processing Therapy",
+          "3": "Seeking Safety model"
+        }
+      },
+      "substance": {
+        "title": "Substance Use & Recovery",
+        "description": "Motivational Interviewing, relapse prevention, and harm reduction approaches to support long-term recovery and engagement.",
+        "features": {
+          "0": "Motivational Interviewing",
+          "1": "Relapse prevention planning",
+          "2": "Harm reduction model",
+          "3": "Recovery coaching"
+        }
+      },
+      "groups": {
+        "title": "Group Therapy",
+        "description": "Structured group interventions including DBT skills, relapse prevention, anger management, and psychoeducation sessions.",
+        "features": {
+          "0": "DBT & CBT skills groups",
+          "1": "Anger management groups",
+          "2": "Relapse prevention groups",
+          "3": "Psychoeducation sessions"
+        }
+      },
+      "telehealth": {
+        "title": "Telehealth Services",
+        "description": "HIPAA-compliant virtual treatment through the VSee platform, available for individual and group sessions when clinically appropriate.",
+        "features": {
+          "0": "HIPAA-compliant video (VSee)",
+          "1": "Individual & group sessions",
+          "2": "Flexible scheduling",
+          "3": "Medicaid-approved delivery"
+        }
+      }
+    }
+  },
+  "appointment": {
+    "overline": "Book Appointment",
+    "title": "Schedule Your",
+    "highlight": "Consultation",
+    "description": "Take the first step toward recovery. Fill out the form and our team will get back to you promptly.",
+    "emailSubject": "Appointment Request - {service}",
+    "serviceOptions": {
+      "0": "Mental Health Evaluation",
+      "1": "Individual Psychotherapy",
+      "2": "Intensive Outpatient (IOP)",
+      "3": "Psychosocial Rehabilitation",
+      "4": "Trauma-Focused Treatment",
+      "5": "Substance Use & Recovery",
+      "6": "Group Therapy",
+      "7": "Telehealth Session"
+    }
+  },
+  "whyUs": {
+    "overline": "Why Choose Us",
+    "title": "Built for Accountability, Designed for",
+    "highlight": "Results",
+    "description": "We understand that many referrals involve complex individuals — co-occurring conditions, legal obligations, or compliance deadlines. Our clinic handles these realities.",
+    "badge": "Type 14",
+    "badgeLabel": "Medicaid Provider",
+    "pillars": {
+      "0": {
+        "title": "Medicaid Compliant",
+        "description": "Every service is documentation-driven and Medicaid-compliant, designed to withstand audits and clinical scrutiny."
+      },
+      "1": {
+        "title": "Court-Approved Provider",
+        "description": "We communicate clearly, promptly, and close the loop on referrals. Your clients are never left waiting."
+      },
+      "2": {
+        "title": "Continuity of Care",
+        "description": "Engagement, follow-up, and progress are actively tracked and documented throughout the treatment journey."
+      },
+      "3": {
+        "title": "Clinical Expertise",
+        "description": "LCSW, QMHP, FNP and EMDR-trained staff deliver care that meets the highest clinical standards."
+      }
+    }
+  },
+  "team": {
+    "overline": "Our Team",
+    "title": "Meet Our Expert",
+    "highlight": "Clinicians",
+    "description": "A dedicated team of licensed clinicians, qualified mental health professionals, and behavioral specialists committed to your recovery."
+  },
+  "staff": {
+    "elsa-villalobos": {
+      "title": "Clinical Director & Supervisor",
+      "bio": "Licensed Clinical Social Worker with extensive experience in trauma therapy, EMDR, and clinical operations. Certified Domestic Violence and DUI Instructor with VA experience in PTSD, crisis intervention, and complex mental health cases.",
+      "specialties": {
+        "0": "EMDR Therapy",
+        "1": "Trauma & PTSD",
+        "2": "Crisis Intervention",
+        "3": "Clinical Supervision",
+        "4": "Court & Legal Programs"
+      }
+    },
+    "arnaldo-morejon": {
+      "title": "Psychiatric Clinician",
+      "bio": "Qualified Mental Health Professional and Family Nurse Practitioner combining psychiatric clinical experience with advanced medical training. Background in correctional nursing, psychiatric care, and complex case management.",
+      "specialties": {
+        "0": "Psychiatric Assessment",
+        "1": "Medication Coordination",
+        "2": "Crisis Stabilization",
+        "3": "Co-occurring Disorders",
+        "4": "Treatment Planning"
+      }
+    },
+    "stephanie-more-texier": {
+      "title": "Office Manager",
+      "bio": "Qualified Mental Health Associate providing direct client services including skills training, psychosocial rehabilitation, and treatment plan support. Manages compliance monitoring and care coordination.",
+      "specialties": {
+        "0": "Skills Training",
+        "1": "PSR Services",
+        "2": "Compliance Monitoring",
+        "3": "Care Coordination",
+        "4": "Progress Tracking"
+      }
+    },
+    "juan-freije": {
+      "title": "Clinical Support Specialist",
+      "bio": "Registered Nurse and Qualified Mental Health Associate delivering frontline clinical services including behavioral support, weekly progress monitoring, and care coordination for court-involved clients.",
+      "specialties": {
+        "0": "Behavioral Support",
+        "1": "Progress Monitoring",
+        "2": "Group Facilitation",
+        "3": "Court Compliance",
+        "4": "Client Engagement"
+      }
+    },
+    "damian-perez": {
+      "title": "Behavioral Aide",
+      "bio": "Qualified Behavioral Aide providing behavior support services, skills training assistance, client monitoring, and structured sessions. Supports documentation, scheduling, and community resource connections.",
+      "specialties": {
+        "0": "Behavior Support",
+        "1": "Skills Training",
+        "2": "Client Monitoring",
+        "3": "Documentation",
+        "4": "Group Sessions"
+      }
+    },
+    "marlon-baro": {
+      "title": "Behavioral Aide",
+      "bio": "Qualified Behavioral Aide specializing in coping skills groups, stress management, relapse prevention support, and life skills training. Assists with attendance documentation and treatment compliance.",
+      "specialties": {
+        "0": "Coping Skills Groups",
+        "1": "Stress Management",
+        "2": "Life Skills Training",
+        "3": "Relapse Prevention",
+        "4": "Client Support"
+      }
+    }
+  },
+  "testimonials": {
+    "overline": "Testimonials",
+    "title": "What Our Partners",
+    "highlight": "Say",
+    "description": "Trusted by courts, community organizations, and individuals across the Las Vegas area.",
+    "items": {
+      "0": {
+        "text": "Serenity Behavioral Services has been an invaluable partner for our court-referred clients. Their documentation is thorough, timely, and meets all compliance standards.",
+        "name": "Court Services Partner",
+        "role": "Clark County, NV"
+      },
+      "1": {
+        "text": "The clinical team truly cares about each individual. Their evidence-based approach and consistent follow-through have made a real difference in our community.",
+        "name": "Community Organization",
+        "role": "Las Vegas, NV"
+      },
+      "2": {
+        "text": "From intake to discharge, the process was professional and compassionate. The staff helped me understand my treatment plan and kept me engaged throughout my recovery.",
+        "name": "Former Client",
+        "role": "IOP Program Graduate"
+      }
+    }
+  },
+  "howItWorks": {
+    "overline": "How It Works",
+    "title": "Your Path to",
+    "highlight": "Recovery",
+    "description": "We've streamlined our process so you can focus on what matters most — getting better.",
+    "steps": {
+      "0": {
+        "title": "Referral & Intake",
+        "description": "Submit a referral or contact us directly. We respond promptly and begin the intake process."
+      },
+      "1": {
+        "title": "Assessment",
+        "description": "Comprehensive diagnostic evaluation to identify needs, set goals, and build a personalized treatment plan."
+      },
+      "2": {
+        "title": "Treatment",
+        "description": "Evidence-based individual and group therapy using CBT, DBT, EMDR, and other proven approaches."
+      },
+      "3": {
+        "title": "Progress & Recovery",
+        "description": "Active progress monitoring, documentation, and care coordination toward lasting behavioral change."
+      }
+    }
+  },
+  "featuredDoctor": {
+    "overline": "Clinical Director",
+    "highlights": {
+      "0": "LCSW Licensed",
+      "1": "EMDR Trained",
+      "2": "Clinical Supervisor",
+      "3": "Trauma Specialist"
+    }
+  },
+  "faq": {
+    "overline": "FAQ",
+    "title": "Frequently Asked",
+    "highlight": "Questions",
+    "description": "Find answers to common questions about our services, insurance, referrals, and treatment programs.",
+    "items": {
+      "0": {
+        "question": "What types of insurance do you accept?",
+        "answer": "We are a Medicaid-enrolled provider (Provider Type 14). We work with various Medicaid managed care plans in Nevada. Contact us to verify your specific coverage."
+      },
+      "1": {
+        "question": "Do you accept court-referred or court-ordered clients?",
+        "answer": "Yes. We specialize in court-referred evaluations and treatment, including DUI assessments, domestic violence programs, and mandated mental health treatment. Our documentation meets court compliance standards."
+      },
+      "2": {
+        "question": "What is an Intensive Outpatient Program (IOP)?",
+        "answer": "Our IOP provides structured treatment with multiple sessions per week for individuals who need more support than weekly therapy but do not require inpatient care. It focuses on symptom stabilization, coping skills, and behavioral regulation."
+      },
+      "3": {
+        "question": "Do you offer telehealth services?",
+        "answer": "Yes. We provide HIPAA-compliant telehealth services through the VSee platform for both individual and group sessions when clinically appropriate and Medicaid-approved."
+      },
+      "4": {
+        "question": "How do I make a referral?",
+        "answer": "You can refer a client by calling us at (702) 665-5035, emailing info{'@'}serenitybhs.com, or using our online contact form. We respond to all referrals promptly and begin the intake process immediately."
+      },
+      "5": {
+        "question": "What evidence-based therapies do you use?",
+        "answer": "Our clinicians use CBT, DBT, ACT, REBT, EMDR, Trauma-Focused CBT, Cognitive Processing Therapy, Motivational Interviewing, and Seeking Safety, among other validated approaches."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Begin",
+    "highlight": "Your Journey?",
+    "subtitle": "Whether you're a referral partner, court professional, or individual seeking care, we're here to help. Contact us today."
+  },
+  "footer": {
+    "tagline": "Serenity Behavioral Services provides evidence-based behavioral health care in Las Vegas, Nevada. Medicaid Provider Type 14. Trusted by courts, community partners, and individuals.",
+    "servicesHeading": "Our Services",
+    "quickLinksHeading": "Quick Links",
+    "contactHeading": "Contact Info",
+    "getInTouch": "Get in Touch with Us",
+    "hoursLabel": "Hours",
+    "hoursValue": "Mon-Fri: 9AM - 5PM",
+    "copyright": "Serenity Behavioral Services. All Rights Reserved.",
+    "copyrightSuffix": "Medicaid Provider Type 14",
+    "serviceLinks": {
+      "0": "Mental Health Evaluations",
+      "1": "Individual Psychotherapy",
+      "2": "Intensive Outpatient (IOP)",
+      "3": "Psychosocial Rehabilitation",
+      "4": "Trauma-Focused Treatment"
+    },
+    "quickLinks": {
+      "0": "About Us",
+      "1": "Our Services",
+      "2": "Our Team",
+      "3": "Contact Us"
+    }
+  },
+  "topbar": {
+    "contactUs": "Contact Us",
+    "emailSupport": "Email Support",
+    "onlineAppointment": "Online Appointment",
+    "bookNow": "Book Now",
+    "telehealth": "Telehealth",
+    "vseePlatform": "VSee Platform",
+    "location": "Location",
+    "lasVegas": "Las Vegas, NV"
+  },
+  "meta": {
+    "homeTitle": "Evidence-Based Behavioral Health Care",
+    "homeDescription": "Serenity Behavioral Services provides comprehensive, evidence-based behavioral health care in Las Vegas, Nevada. Trusted by courts, community partners, and individuals. Medicaid Provider Type 14."
+  },
+  "scrollToTop": {
+    "ariaLabel": "Scroll to top"
+  }
+}

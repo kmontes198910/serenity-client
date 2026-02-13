@@ -1,0 +1,429 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "team": "Nuestro Equipo",
+    "contact": "Contacto",
+    "testimonials": "Testimonios",
+    "faq": "Preguntas"
+  },
+  "buttons": {
+    "bookAppointment": "Reservar Cita",
+    "getStarted": "Comenzar",
+    "getStartedToday": "Comience Hoy",
+    "viewAllServices": "Ver Todos los Servicios",
+    "learnMore": "Conozca Más Sobre Nosotros",
+    "callUs": "Llámenos",
+    "sendRequest": "Enviar Solicitud",
+    "viewFullTeam": "Ver Equipo Completo",
+    "meetFullTeam": "Conozca al Equipo",
+    "bookNow": "Reservar Ahora"
+  },
+  "badges": {
+    "medicaidProvider": "Proveedor Medicaid Tipo 14",
+    "licensedStaff": "Personal Licenciado",
+    "courtApproved": "Aprobado por Tribunales",
+    "hipaaCompliant": "Cumple con HIPAA",
+    "acceptingReferrals": "Aceptando Nuevas Referencias"
+  },
+  "labels": {
+    "phone": "Teléfono",
+    "alternative": "Alternativo",
+    "email": "Correo Electrónico",
+    "location": "Ubicación",
+    "contactUs": "Contáctenos",
+    "emailSupport": "Correo de Soporte",
+    "onlineAppointment": "Cita en Línea",
+    "telehealth": "Telesalud",
+    "hours": "Horario",
+    "fullName": "Nombre Completo",
+    "service": "Servicio",
+    "message": "Mensaje",
+    "clinicalDirector": "Directora Clínica",
+    "callUs": "Llámenos"
+  },
+  "placeholders": {
+    "yourFullName": "Su nombre completo",
+    "yourEmail": "su{'@'}correo.com",
+    "phoneNumber": "(702) 000-0000",
+    "selectService": "Seleccione un servicio",
+    "tellUsNeeds": "Cuéntenos sobre sus necesidades..."
+  },
+  "hero": {
+    "title": "Atención de Salud",
+    "highlight": "Conductual",
+    "titleEnd": "Basada en Evidencia",
+    "subtitle": "Servicios integrales de salud mental en Las Vegas, Nevada. Confianza de tribunales, socios comunitarios e individuos para tratamiento ambulatorio de calidad.",
+    "nowOpen": "Ya Abiertos",
+    "acceptingReferrals": "Aceptando Referencias",
+    "licensedClinicalStaff": "Personal Clínico Licenciado",
+    "telehealth": "Telesalud",
+    "telehealthSub": "Sesiones Virtuales Disponibles"
+  },
+  "stats": {
+    "servicesOffered": "Servicios Ofrecidos",
+    "treatmentPrograms": "Programas de Tratamiento",
+    "licensedClinicians": "Clínicos Licenciados",
+    "evidenceBasedCare": "Atención Basada en Evidencia"
+  },
+  "facilities": {
+    "overline": "Sobre Nuestra Práctica",
+    "title": "Salud Conductual",
+    "highlight": "Integral",
+    "description": "Serenity Behavioral Services es una clínica ambulatoria inscrita en Medicaid que ofrece tratamiento estructurado y basado en evidencia para individuos y familias en la comunidad de Las Vegas.",
+    "openingHours": "Horario de Atención",
+    "features": {
+      "0": "Psicoterapia Individual y Grupal",
+      "1": "Evaluaciones Referidas por Tribunales",
+      "2": "Programa Intensivo Ambulatorio (IOP)",
+      "3": "Rehabilitación Psicosocial (PSR)",
+      "4": "Tratamiento de Trauma (EMDR)",
+      "5": "Telesalud vía Plataforma VSee"
+    },
+    "hours": {
+      "0": { "day": "Lunes - Viernes", "time": "9:00 AM - 5:00 PM" },
+      "1": { "day": "Sábado", "time": "Con Cita" },
+      "2": { "day": "Domingo", "time": "Cerrado" }
+    }
+  },
+  "services": {
+    "overline": "Nuestros Servicios",
+    "title": "Programas de Tratamiento",
+    "highlight": "Integrales",
+    "description": "Desde evaluaciones diagnósticas hasta programas intensivos ambulatorios, ofrecemos un continuo completo de atención basada en evidencia adaptada a las necesidades de cada individuo.",
+    "items": {
+      "evaluations": {
+        "title": "Evaluaciones de Salud Mental",
+        "description": "Evaluaciones diagnósticas integrales y evaluaciones referidas por tribunales. Documentación clara y defendible alineada con los estándares de Medicaid, estatales y federales.",
+        "features": {
+          "0": "Evaluaciones diagnósticas integrales",
+          "1": "Evaluaciones referidas y ordenadas por tribunales",
+          "2": "Documentación clínica defendible",
+          "3": "Informes compatibles con Medicaid"
+        }
+      },
+      "psychotherapy": {
+        "title": "Psicoterapia Individual",
+        "description": "Consejería basada en evidencia utilizando CBT, DBT, ACT y REBT para abordar patrones de pensamiento, regulación emocional y cambio conductual duradero.",
+        "features": {
+          "0": "Terapia Cognitivo Conductual (CBT)",
+          "1": "Terapia Dialéctica Conductual (DBT)",
+          "2": "Terapia de Aceptación y Compromiso (ACT)",
+          "3": "Terapia Racional Emotiva Conductual"
+        }
+      },
+      "iop": {
+        "title": "Programa Intensivo Ambulatorio",
+        "description": "Tratamiento estructurado con múltiples sesiones semanales para personas que necesitan más apoyo que la terapia semanal sin hospitalización.",
+        "features": {
+          "0": "Múltiples sesiones por semana",
+          "1": "Estabilización de síntomas",
+          "2": "Habilidades de afrontamiento y regulación conductual",
+          "3": "Seguimiento activo del progreso"
+        }
+      },
+      "psr": {
+        "title": "Rehabilitación Psicosocial",
+        "description": "Servicios basados en habilidades y orientados a metas para ayudar a las personas a desarrollar habilidades de vida diaria, sociales y de afrontamiento para mayor independencia.",
+        "features": {
+          "0": "Entrenamiento en regulación emocional",
+          "1": "Comunicación y habilidades sociales",
+          "2": "Construcción de rutinas y habilidades de vida",
+          "3": "Apoyo al funcionamiento comunitario"
+        }
+      },
+      "trauma": {
+        "title": "Tratamiento Enfocado en Trauma",
+        "description": "Atención especializada informada en trauma incluyendo EMDR, TF-CBT, CPT y estrategias de estabilización para TEPT, ansiedad y sobrevivientes de abuso.",
+        "features": {
+          "0": "Terapia EMDR",
+          "1": "CBT Enfocada en Trauma",
+          "2": "Terapia de Procesamiento Cognitivo",
+          "3": "Modelo Seeking Safety"
+        }
+      },
+      "substance": {
+        "title": "Uso de Sustancias y Recuperación",
+        "description": "Entrevista Motivacional, prevención de recaídas y enfoques de reducción de daños para apoyar la recuperación y el compromiso a largo plazo.",
+        "features": {
+          "0": "Entrevista Motivacional",
+          "1": "Planificación de prevención de recaídas",
+          "2": "Modelo de reducción de daños",
+          "3": "Coaching de recuperación"
+        }
+      },
+      "groups": {
+        "title": "Terapia Grupal",
+        "description": "Intervenciones grupales estructuradas incluyendo habilidades DBT, prevención de recaídas, manejo de la ira y sesiones psicoeducativas.",
+        "features": {
+          "0": "Grupos de habilidades DBT y CBT",
+          "1": "Grupos de manejo de la ira",
+          "2": "Grupos de prevención de recaídas",
+          "3": "Sesiones psicoeducativas"
+        }
+      },
+      "telehealth": {
+        "title": "Servicios de Telesalud",
+        "description": "Tratamiento virtual compatible con HIPAA a través de la plataforma VSee, disponible para sesiones individuales y grupales cuando sea clínicamente apropiado.",
+        "features": {
+          "0": "Video compatible con HIPAA (VSee)",
+          "1": "Sesiones individuales y grupales",
+          "2": "Horarios flexibles",
+          "3": "Entrega aprobada por Medicaid"
+        }
+      }
+    }
+  },
+  "appointment": {
+    "overline": "Reservar Cita",
+    "title": "Programe Su",
+    "highlight": "Consulta",
+    "description": "Dé el primer paso hacia la recuperación. Complete el formulario y nuestro equipo se comunicará con usted prontamente.",
+    "emailSubject": "Solicitud de Cita - {service}",
+    "serviceOptions": {
+      "0": "Evaluación de Salud Mental",
+      "1": "Psicoterapia Individual",
+      "2": "Programa Intensivo Ambulatorio (IOP)",
+      "3": "Rehabilitación Psicosocial",
+      "4": "Tratamiento Enfocado en Trauma",
+      "5": "Uso de Sustancias y Recuperación",
+      "6": "Terapia Grupal",
+      "7": "Sesión de Telesalud"
+    }
+  },
+  "whyUs": {
+    "overline": "Por Qué Elegirnos",
+    "title": "Construido para la Responsabilidad, Diseñado para",
+    "highlight": "Resultados",
+    "description": "Entendemos que muchas referencias involucran individuos complejos — condiciones concurrentes, obligaciones legales o plazos de cumplimiento. Nuestra clínica maneja estas realidades.",
+    "badge": "Tipo 14",
+    "badgeLabel": "Proveedor Medicaid",
+    "pillars": {
+      "0": {
+        "title": "Cumplimiento con Medicaid",
+        "description": "Cada servicio está impulsado por documentación y cumple con Medicaid, diseñado para resistir auditorías y escrutinio clínico."
+      },
+      "1": {
+        "title": "Proveedor Aprobado por Tribunales",
+        "description": "Nos comunicamos con claridad, prontitud y cerramos el ciclo en las referencias. Sus clientes nunca quedan esperando."
+      },
+      "2": {
+        "title": "Continuidad de la Atención",
+        "description": "El compromiso, seguimiento y progreso se rastrean y documentan activamente durante todo el recorrido del tratamiento."
+      },
+      "3": {
+        "title": "Experiencia Clínica",
+        "description": "Personal con LCSW, QMHP, FNP y entrenamiento en EMDR brinda atención que cumple con los más altos estándares clínicos."
+      }
+    }
+  },
+  "team": {
+    "overline": "Nuestro Equipo",
+    "title": "Conozca a Nuestros",
+    "highlight": "Clínicos Expertos",
+    "description": "Un equipo dedicado de clínicos licenciados, profesionales de salud mental calificados y especialistas conductuales comprometidos con su recuperación."
+  },
+  "staff": {
+    "elsa-villalobos": {
+      "title": "Directora Clínica y Supervisora",
+      "bio": "Trabajadora Social Clínica Licenciada con amplia experiencia en terapia de trauma, EMDR y operaciones clínicas. Instructora certificada en Violencia Doméstica y DUI con experiencia en VA en TEPT, intervención en crisis y casos complejos de salud mental.",
+      "specialties": {
+        "0": "Terapia EMDR",
+        "1": "Trauma y TEPT",
+        "2": "Intervención en Crisis",
+        "3": "Supervisión Clínica",
+        "4": "Programas Legales y Tribunales"
+      }
+    },
+    "arnaldo-morejon": {
+      "title": "Clínico Psiquiátrico",
+      "bio": "Profesional de Salud Mental Calificado y Practicante de Enfermería Familiar que combina experiencia clínica psiquiátrica con entrenamiento médico avanzado. Experiencia en enfermería correccional, atención psiquiátrica y manejo de casos complejos.",
+      "specialties": {
+        "0": "Evaluación Psiquiátrica",
+        "1": "Coordinación de Medicamentos",
+        "2": "Estabilización en Crisis",
+        "3": "Trastornos Concurrentes",
+        "4": "Planificación de Tratamiento"
+      }
+    },
+    "stephanie-more-texier": {
+      "title": "Gerente de Oficina",
+      "bio": "Asociada de Salud Mental Calificada que brinda servicios directos al cliente incluyendo entrenamiento en habilidades, rehabilitación psicosocial y apoyo al plan de tratamiento. Gestiona el monitoreo de cumplimiento y coordinación de atención.",
+      "specialties": {
+        "0": "Entrenamiento en Habilidades",
+        "1": "Servicios PSR",
+        "2": "Monitoreo de Cumplimiento",
+        "3": "Coordinación de Atención",
+        "4": "Seguimiento de Progreso"
+      }
+    },
+    "juan-freije": {
+      "title": "Especialista en Apoyo Clínico",
+      "bio": "Enfermero Registrado y Asociado de Salud Mental Calificado que brinda servicios clínicos de primera línea incluyendo apoyo conductual, monitoreo semanal de progreso y coordinación de atención para clientes involucrados con tribunales.",
+      "specialties": {
+        "0": "Apoyo Conductual",
+        "1": "Monitoreo de Progreso",
+        "2": "Facilitación de Grupos",
+        "3": "Cumplimiento con Tribunales",
+        "4": "Compromiso del Cliente"
+      }
+    },
+    "damian-perez": {
+      "title": "Asistente Conductual",
+      "bio": "Asistente Conductual Calificado que brinda servicios de apoyo conductual, asistencia en entrenamiento de habilidades, monitoreo de clientes y sesiones estructuradas. Apoya documentación, programación y conexiones con recursos comunitarios.",
+      "specialties": {
+        "0": "Apoyo Conductual",
+        "1": "Entrenamiento en Habilidades",
+        "2": "Monitoreo de Clientes",
+        "3": "Documentación",
+        "4": "Sesiones Grupales"
+      }
+    },
+    "marlon-baro": {
+      "title": "Asistente Conductual",
+      "bio": "Asistente Conductual Calificado especializado en grupos de habilidades de afrontamiento, manejo del estrés, apoyo en prevención de recaídas y entrenamiento en habilidades de vida. Asiste con documentación de asistencia y cumplimiento del tratamiento.",
+      "specialties": {
+        "0": "Grupos de Habilidades de Afrontamiento",
+        "1": "Manejo del Estrés",
+        "2": "Entrenamiento en Habilidades de Vida",
+        "3": "Prevención de Recaídas",
+        "4": "Apoyo al Cliente"
+      }
+    }
+  },
+  "testimonials": {
+    "overline": "Testimonios",
+    "title": "Lo Que Dicen Nuestros",
+    "highlight": "Socios",
+    "description": "Confianza de tribunales, organizaciones comunitarias e individuos en toda el área de Las Vegas.",
+    "items": {
+      "0": {
+        "text": "Serenity Behavioral Services ha sido un socio invaluable para nuestros clientes referidos por tribunales. Su documentación es exhaustiva, oportuna y cumple con todos los estándares de cumplimiento.",
+        "name": "Socio de Servicios Judiciales",
+        "role": "Condado de Clark, NV"
+      },
+      "1": {
+        "text": "El equipo clínico realmente se preocupa por cada individuo. Su enfoque basado en evidencia y seguimiento constante han marcado una verdadera diferencia en nuestra comunidad.",
+        "name": "Organización Comunitaria",
+        "role": "Las Vegas, NV"
+      },
+      "2": {
+        "text": "Desde la admisión hasta el alta, el proceso fue profesional y compasivo. El personal me ayudó a entender mi plan de tratamiento y me mantuvo comprometido durante toda mi recuperación.",
+        "name": "Excliente",
+        "role": "Graduado del Programa IOP"
+      }
+    }
+  },
+  "howItWorks": {
+    "overline": "Cómo Funciona",
+    "title": "Su Camino Hacia la",
+    "highlight": "Recuperación",
+    "description": "Hemos simplificado nuestro proceso para que pueda enfocarse en lo que más importa — recuperarse.",
+    "steps": {
+      "0": {
+        "title": "Referencia e Ingreso",
+        "description": "Envíe una referencia o contáctenos directamente. Respondemos con prontitud y comenzamos el proceso de ingreso."
+      },
+      "1": {
+        "title": "Evaluación",
+        "description": "Evaluación diagnóstica integral para identificar necesidades, establecer metas y construir un plan de tratamiento personalizado."
+      },
+      "2": {
+        "title": "Tratamiento",
+        "description": "Terapia individual y grupal basada en evidencia utilizando CBT, DBT, EMDR y otros enfoques probados."
+      },
+      "3": {
+        "title": "Progreso y Recuperación",
+        "description": "Monitoreo activo del progreso, documentación y coordinación de atención hacia un cambio conductual duradero."
+      }
+    }
+  },
+  "featuredDoctor": {
+    "overline": "Directora Clínica",
+    "highlights": {
+      "0": "Licencia LCSW",
+      "1": "Entrenada en EMDR",
+      "2": "Supervisora Clínica",
+      "3": "Especialista en Trauma"
+    }
+  },
+  "faq": {
+    "overline": "Preguntas Frecuentes",
+    "title": "Preguntas",
+    "highlight": "Frecuentes",
+    "description": "Encuentre respuestas a preguntas comunes sobre nuestros servicios, seguros, referencias y programas de tratamiento.",
+    "items": {
+      "0": {
+        "question": "¿Qué tipos de seguro aceptan?",
+        "answer": "Somos un proveedor inscrito en Medicaid (Tipo de Proveedor 14). Trabajamos con varios planes de atención administrada de Medicaid en Nevada. Contáctenos para verificar su cobertura específica."
+      },
+      "1": {
+        "question": "¿Aceptan clientes referidos u ordenados por tribunales?",
+        "answer": "Sí. Nos especializamos en evaluaciones y tratamiento referidos por tribunales, incluyendo evaluaciones de DUI, programas de violencia doméstica y tratamiento de salud mental obligatorio. Nuestra documentación cumple con los estándares de cumplimiento de tribunales."
+      },
+      "2": {
+        "question": "¿Qué es un Programa Intensivo Ambulatorio (IOP)?",
+        "answer": "Nuestro IOP proporciona tratamiento estructurado con múltiples sesiones por semana para personas que necesitan más apoyo que la terapia semanal pero no requieren atención hospitalaria. Se enfoca en la estabilización de síntomas, habilidades de afrontamiento y regulación conductual."
+      },
+      "3": {
+        "question": "¿Ofrecen servicios de telesalud?",
+        "answer": "Sí. Proporcionamos servicios de telesalud compatibles con HIPAA a través de la plataforma VSee para sesiones individuales y grupales cuando sea clínicamente apropiado y aprobado por Medicaid."
+      },
+      "4": {
+        "question": "¿Cómo hago una referencia?",
+        "answer": "Puede referir a un cliente llamándonos al (702) 665-5035, enviando un correo a info{'@'}serenitybhs.com, o usando nuestro formulario de contacto en línea. Respondemos a todas las referencias con prontitud y comenzamos el proceso de ingreso de inmediato."
+      },
+      "5": {
+        "question": "¿Qué terapias basadas en evidencia utilizan?",
+        "answer": "Nuestros clínicos utilizan CBT, DBT, ACT, REBT, EMDR, CBT Enfocada en Trauma, Terapia de Procesamiento Cognitivo, Entrevista Motivacional y Seeking Safety, entre otros enfoques validados."
+      }
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar",
+    "highlight": "Su Camino?",
+    "subtitle": "Ya sea que usted sea un socio de referencia, profesional judicial o individuo que busca atención, estamos aquí para ayudarle. Contáctenos hoy."
+  },
+  "footer": {
+    "tagline": "Serenity Behavioral Services brinda atención de salud conductual basada en evidencia en Las Vegas, Nevada. Proveedor Medicaid Tipo 14. Confianza de tribunales, socios comunitarios e individuos.",
+    "servicesHeading": "Nuestros Servicios",
+    "quickLinksHeading": "Enlaces Rápidos",
+    "contactHeading": "Información de Contacto",
+    "getInTouch": "Comuníquese con Nosotros",
+    "hoursLabel": "Horario",
+    "hoursValue": "Lun-Vie: 9AM - 5PM",
+    "copyright": "Serenity Behavioral Services. Todos los Derechos Reservados.",
+    "copyrightSuffix": "Proveedor Medicaid Tipo 14",
+    "serviceLinks": {
+      "0": "Evaluaciones de Salud Mental",
+      "1": "Psicoterapia Individual",
+      "2": "Programa Intensivo Ambulatorio (IOP)",
+      "3": "Rehabilitación Psicosocial",
+      "4": "Tratamiento Enfocado en Trauma"
+    },
+    "quickLinks": {
+      "0": "Sobre Nosotros",
+      "1": "Nuestros Servicios",
+      "2": "Nuestro Equipo",
+      "3": "Contáctenos"
+    }
+  },
+  "topbar": {
+    "contactUs": "Contáctenos",
+    "emailSupport": "Correo de Soporte",
+    "onlineAppointment": "Cita en Línea",
+    "bookNow": "Reservar Ahora",
+    "telehealth": "Telesalud",
+    "vseePlatform": "Plataforma VSee",
+    "location": "Ubicación",
+    "lasVegas": "Las Vegas, NV"
+  },
+  "meta": {
+    "homeTitle": "Atención de Salud Conductual Basada en Evidencia",
+    "homeDescription": "Serenity Behavioral Services brinda atención integral de salud conductual basada en evidencia en Las Vegas, Nevada. Confianza de tribunales, socios comunitarios e individuos. Proveedor Medicaid Tipo 14."
+  },
+  "scrollToTop": {
+    "ariaLabel": "Volver arriba"
+  }
+}
