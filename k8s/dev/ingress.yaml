@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: serenity-client
+  namespace: serenity-dev
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - dev.serenitybhs.com
+      secretName: serenity-tls
+  rules:
+    - host: dev.serenitybhs.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: serenity-client-service
+                port:
+                  number: 3000

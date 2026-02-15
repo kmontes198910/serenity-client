@@ -65,4 +65,4 @@ jobs:
 
       - name: Redeploy
         run: |
-          kubectl -n serenity-prod patch deployment ${{ env.SERVICE_NAME }} -p "{\"spec\": {\"template\": {\"metadata\": { \"labels\": {  \"redeploy\": \"$(date +%s)\"}}}}}"
+          kubectl -n serenity-dev patch deployment ${{ env.SERVICE_NAME }} -p "{\"spec\": {\"template\": {\"metadata\": { \"labels\": {  \"redeploy\": \"$(date +%s)\"}}}}}"
