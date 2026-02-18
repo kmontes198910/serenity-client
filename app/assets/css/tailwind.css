@@ -12,28 +12,28 @@
   --font-heading: 'Outfit', sans-serif;
   --font-sans: 'Plus Jakarta Sans', sans-serif;
 
-  /* Navy palette */
-  --color-navy-950: #010e1e;
-  --color-navy-900: #011a33;
-  --color-navy-800: #022647;
-  --color-navy-700: #03325e;
-  --color-navy-600: #044075;
-  --color-navy-500: #064e8c;
-  --color-navy-400: #1a6fb5;
-  --color-navy-300: #4a94cc;
-  --color-navy-200: #8bbedf;
-  --color-navy-100: #c5deef;
-  --color-navy-50: #e8f1f8;
+  /* Navy palette (via CSS vars for theme switching) */
+  --color-navy-950: var(--t-navy-950);
+  --color-navy-900: var(--t-navy-900);
+  --color-navy-800: var(--t-navy-800);
+  --color-navy-700: var(--t-navy-700);
+  --color-navy-600: var(--t-navy-600);
+  --color-navy-500: var(--t-navy-500);
+  --color-navy-400: var(--t-navy-400);
+  --color-navy-300: var(--t-navy-300);
+  --color-navy-200: var(--t-navy-200);
+  --color-navy-100: var(--t-navy-100);
+  --color-navy-50: var(--t-navy-50);
 
-  /* Cyan accent */
-  --color-accent-50: #ecfeff;
-  --color-accent-100: #cffafe;
-  --color-accent-200: #a5f3fc;
-  --color-accent-300: #67e8f9;
-  --color-accent-400: #22d3ee;
-  --color-accent-500: #06b6d4;
-  --color-accent-600: #0891b2;
-  --color-accent-700: #0e7490;
+  /* Cyan accent (via CSS vars for theme switching) */
+  --color-accent-50: var(--t-accent-50);
+  --color-accent-100: var(--t-accent-100);
+  --color-accent-200: var(--t-accent-200);
+  --color-accent-300: var(--t-accent-300);
+  --color-accent-400: var(--t-accent-400);
+  --color-accent-500: var(--t-accent-500);
+  --color-accent-600: var(--t-accent-600);
+  --color-accent-700: var(--t-accent-700);
 
   /* Keep Shadcn variables */
   --color-background: var(--background);
@@ -58,6 +58,31 @@
 
 :root {
   --radius: 0.625rem;
+
+  /* Navy palette — default (navy/blue) */
+  --t-navy-950: #010e1e;
+  --t-navy-900: #011a33;
+  --t-navy-800: #022647;
+  --t-navy-700: #03325e;
+  --t-navy-600: #044075;
+  --t-navy-500: #064e8c;
+  --t-navy-400: #1a6fb5;
+  --t-navy-300: #4a94cc;
+  --t-navy-200: #8bbedf;
+  --t-navy-100: #c5deef;
+  --t-navy-50: #e8f1f8;
+
+  /* Accent palette — default (cyan) */
+  --t-accent-50: #ecfeff;
+  --t-accent-100: #cffafe;
+  --t-accent-200: #a5f3fc;
+  --t-accent-300: #67e8f9;
+  --t-accent-400: #22d3ee;
+  --t-accent-500: #06b6d4;
+  --t-accent-600: #0891b2;
+  --t-accent-700: #0e7490;
+
+  /* Shadcn semantic */
   --background: #ffffff;
   --foreground: #0f172a;
   --card: #ffffff;
@@ -76,6 +101,41 @@
   --border: #e2e8f0;
   --input: #e2e8f0;
   --ring: #22d3ee;
+}
+
+/* ─── Teal Theme ─── */
+[data-theme="teal"] {
+  /* Navy scale → teal */
+  --t-navy-950: #01161d;
+  --t-navy-900: #012530;
+  --t-navy-800: #034050;
+  --t-navy-700: #046077;
+  --t-navy-600: #077c96;
+  --t-navy-500: #0b97b4;
+  --t-navy-400: #1cb5d2;
+  --t-navy-300: #4fcce0;
+  --t-navy-200: #8ce1ed;
+  --t-navy-100: #c3f0f5;
+  --t-navy-50: #e5f8fa;
+
+  /* Accent scale → turquoise */
+  --t-accent-50: #edfcfb;
+  --t-accent-100: #d2f9f6;
+  --t-accent-200: #a9f2ed;
+  --t-accent-300: #70e8e1;
+  --t-accent-400: #36d6d0;
+  --t-accent-500: #04acb7;
+  --t-accent-600: #048d96;
+  --t-accent-700: #087179;
+
+  /* Shadcn semantic */
+  --primary: #046077;
+  --primary-foreground: #ffffff;
+  --secondary: #e5f8fa;
+  --secondary-foreground: #046077;
+  --accent: #36d6d0;
+  --accent-foreground: #01161d;
+  --ring: #36d6d0;
 }
 
 @layer base {
@@ -200,6 +260,9 @@
   background: linear-gradient(135deg, var(--color-accent-400), var(--color-accent-500));
   transform: translateY(-4px);
   box-shadow: 0 20px 40px -12px rgba(6, 182, 212, 0.3);
+}
+[data-theme="teal"] .service-card:hover {
+  box-shadow: 0 20px 40px -12px rgba(4, 172, 183, 0.3);
 }
 .service-card:hover h3,
 .service-card:hover p,

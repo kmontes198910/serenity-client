@@ -11,6 +11,7 @@ if (import.meta.server) {
     createMedicalBusinessSchema(),
   ])
 }
+
 </script>
 
 <template>

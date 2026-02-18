@@ -10,6 +10,12 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      script: [
+        {
+          innerHTML: '(function(){try{var t=localStorage.getItem("serenity-theme");if(t&&t!=="default"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}})()',
+          tagPosition: 'head',
+        },
+      ],
       link: [
         {
           rel: 'preload',
