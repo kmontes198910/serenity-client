@@ -17,24 +17,27 @@ export function createLocalBusinessSchema(): WithContext<LocalBusiness> {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Serenity Behavioral Services',
-    description: 'Outpatient behavioral health clinic providing therapy, evaluations, and mental health services in Las Vegas, Nevada. Medicaid Provider Type 14.',
+    description: 'Outpatient behavioral health clinic providing therapy, evaluations, and mental health services in Las Vegas, Nevada.',
     url: 'https://serenitybhs.com',
     telephone: ['+1-702-665-5035', '+1-702-552-6881'],
+    email: 'serenitybslv@gmail.com',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '4680 S Eastern Ave. Suite B',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
+      postalCode: '89119',
       addressCountry: 'US',
     },
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '09:00',
-        closes: '17:00',
+        opens: '17:00',
+        closes: '21:00',
       },
     ],
-    priceRange: 'Medicaid accepted',
+    priceRange: 'Medicare, Medicaid and select commercial insurance plans',
   }
 }
 
@@ -57,8 +60,10 @@ export function createMedicalBusinessSchema(): WithContext<MedicalBusiness> {
     telephone: '+1-702-665-5035',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '4680 S Eastern Ave. Suite B',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
+      postalCode: '89119',
       addressCountry: 'US',
     },
   }

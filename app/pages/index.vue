@@ -20,6 +20,8 @@ defineOgImage({ component: 'OgImageDefault' })
     <SectionsStatsSection />
     <LazySectionsFacilitiesSection />
     <LazySectionsServicesSection id="services" />
+    <LazySectionsConditionsSection id="conditions" />
+    <LazySectionsAdmissionsSection id="admissions" />
     <LazySectionsTeamSection id="team" />
     <div class="relative overflow-hidden">
       <!-- SERENITY watermark (left, top-aligned) -->
@@ -38,5 +40,6 @@ defineOgImage({ component: 'OgImageDefault' })
     <!-- <LazySectionsFeaturedDoctorSection /> -->
     <LazySectionsFaqSection id="faq" />
     <LazySectionsCtaSection />
+    <LazySectionsReferralSection />
   </div>
 </template>

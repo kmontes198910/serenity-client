@@ -37,13 +37,13 @@ const quickLinks = computed(() => [
                 <p class="text-base font-bold text-white">(702) 665-5035</p>
               </div>
             </a>
-            <a href="mailto:info@serenitybhs.com" class="flex items-center gap-3">
+            <a href="mailto:serenitybslv@gmail.com" class="flex items-center gap-3">
               <div class="w-12 h-12 rounded-full bg-accent-400/10 flex items-center justify-center">
                 <Mail class="h-5 w-5 text-accent-400" />
               </div>
               <div>
                 <p class="text-xs text-white/50 font-medium">{{ t('labels.email') }}</p>
-                <p class="text-base font-bold text-white">info@serenitybhs.com</p>
+                <p class="text-base font-bold text-white">serenitybslv@gmail.com</p>
               </div>
             </a>
             <div class="flex items-center gap-3">
@@ -116,9 +116,9 @@ const quickLinks = computed(() => [
               </a>
             </li>
             <li>
-              <a href="mailto:info@serenitybhs.com" class="flex items-start gap-3 text-base text-white/50 hover:text-accent-400 transition-colors">
+              <a href="mailto:serenitybslv@gmail.com" class="flex items-start gap-3 text-base text-white/50 hover:text-accent-400 transition-colors">
                 <Mail class="h-4 w-4 text-accent-400 mt-0.5 shrink-0" />
-                info@serenitybhs.com
+                serenitybslv@gmail.com
               </a>
             </li>
           </ul>
@@ -131,7 +131,7 @@ const quickLinks = computed(() => [
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5">
         <p class="text-center text-sm text-white/40">
           &copy; {{ currentYear }} {{ t('footer.copyright') }}
-          &middot; {{ t('footer.copyrightSuffix') }} &middot; Las Vegas, NV
+          &middot; Las Vegas, NV
         </p>
       </div>
     </div>

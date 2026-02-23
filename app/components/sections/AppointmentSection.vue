@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Send, Phone, Mail, MapPin } from 'lucide-vue-next'
+import { Send, Phone, Mail, MapPin, Clock } from 'lucide-vue-next'
 
 const { t } = useI18n()
 
@@ -27,7 +27,7 @@ function handleSubmit() {
   const body = encodeURIComponent(
     `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nService: ${form.service}\n\nMessage:\n${form.message}`,
   )
-  window.location.href = `mailto:info@serenitybhs.com?subject=${subject}&body=${body}`
+  window.location.href = `mailto:serenitybslv@gmail.com?subject=${subject}&body=${body}`
 }
 </script>
 
@@ -68,13 +68,13 @@ function handleSubmit() {
                 <p class="text-white font-bold">(702) 552-6881</p>
               </div>
             </a>
-            <a href="mailto:info@serenitybhs.com" class="flex items-center gap-4 group">
+            <a href="mailto:serenitybslv@gmail.com" class="flex items-center gap-4 group">
               <div class="w-12 h-12 rounded-full bg-accent-400/10 flex items-center justify-center group-hover:bg-accent-400/20 transition-colors">
                 <Mail class="h-5 w-5 text-accent-400" />
               </div>
               <div>
                 <p class="text-xs text-white/50 font-medium">{{ t('labels.email') }}</p>
-                <p class="text-white font-bold">info@serenitybhs.com</p>
+                <p class="text-white font-bold">serenitybslv@gmail.com</p>
               </div>
             </a>
             <div class="flex items-center gap-4">
@@ -83,7 +83,17 @@ function handleSubmit() {
               </div>
               <div>
                 <p class="text-xs text-white/50 font-medium">{{ t('labels.location') }}</p>
-                <p class="text-white font-bold">Las Vegas, Nevada</p>
+                <p class="text-white font-bold">4680 S Eastern Ave. Suite B</p>
+                <p class="text-sm text-white/70">Las Vegas, NV 89119</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-full bg-accent-400/10 flex items-center justify-center shrink-0">
+                <Clock class="h-5 w-5 text-accent-400" />
+              </div>
+              <div>
+                <p class="text-xs text-white/50 font-medium">{{ t('labels.hours') }}</p>
+                <p class="text-white font-bold">{{ t('appointment.extendedHours') }}</p>
               </div>
             </div>
           </div>

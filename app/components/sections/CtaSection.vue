@@ -61,9 +61,9 @@ const { t } = useI18n()
         </div>
 
         <div v-reveal="{ delay: 400 }" class="flex items-center justify-center gap-6 mt-10">
-          <a href="mailto:info@serenitybhs.com" class="flex items-center gap-2 text-sm text-white/40 hover:text-accent-400 transition-colors">
+          <a href="mailto:serenitybslv@gmail.com" class="flex items-center gap-2 text-sm text-white/40 hover:text-accent-400 transition-colors">
             <Mail class="h-4 w-4" />
-            info@serenitybhs.com
+            serenitybslv@gmail.com
           </a>
         </div>
       </div>

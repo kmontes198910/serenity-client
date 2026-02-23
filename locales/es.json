@@ -5,6 +5,8 @@
     "about": "Nosotros",
     "team": "Nuestro Equipo",
     "contact": "Contacto",
+    "conditions": "Condiciones",
+    "admissions": "Admisiones",
     "testimonials": "Testimonios",
     "faq": "Preguntas"
   },
@@ -21,7 +23,7 @@
     "bookNow": "Reservar Ahora"
   },
   "badges": {
-    "medicaidProvider": "Proveedor Medicaid Tipo 14",
+    "medicaidProvider": "Proveedor de Salud Conductual Licenciado",
     "licensedStaff": "Personal Licenciado",
     "courtApproved": "Aprobado por Tribunales",
     "hipaaCompliant": "Cumple con HIPAA",
@@ -51,10 +53,10 @@
     "tellUsNeeds": "Cuéntenos sobre sus necesidades..."
   },
   "hero": {
-    "title": "Atención de Salud",
+    "title": "Atención Psiquiátrica &",
     "highlight": "Conductual",
-    "titleEnd": "Basada en Evidencia",
-    "subtitle": "Servicios integrales de salud mental en Las Vegas, Nevada. Confianza de tribunales, socios comunitarios e individuos para tratamiento ambulatorio de calidad.",
+    "titleEnd": "Integrada",
+    "subtitle": "Terapia basada en evidencia, manejo de medicamentos y servicios de rehabilitación brindados bajo supervisión médica licenciada en Nevada. Confianza de tribunales, socios comunitarios e individuos para tratamiento ambulatorio de calidad.",
     "nowOpen": "Ya Abiertos",
     "acceptingReferrals": "Aceptando Referencias",
     "licensedClinicalStaff": "Personal Clínico Licenciado",
@@ -64,14 +66,14 @@
   "stats": {
     "servicesOffered": "Servicios Ofrecidos",
     "treatmentPrograms": "Programas de Tratamiento",
-    "licensedClinicians": "Clínicos Licenciados",
+    "licensedClinicians": "Proveedores de Salud Conductual Licenciados y Acreditados",
     "evidenceBasedCare": "Atención Basada en Evidencia"
   },
   "facilities": {
     "overline": "Sobre Nuestra Práctica",
-    "title": "Salud Conductual",
-    "highlight": "Integral",
-    "description": "Serenity Behavioral Services es una clínica ambulatoria inscrita en Medicaid que ofrece tratamiento estructurado y basado en evidencia para individuos y familias en la comunidad de Las Vegas.",
+    "title": "Atención Psiquiátrica &",
+    "highlight": "Salud Conductual",
+    "description": "Serenity Behavioral Services es una práctica integrada de salud psiquiátrica y conductual que sirve a la comunidad de Las Vegas. Operamos bajo supervisión clínica y médica licenciada para garantizar una atención estructurada, ética y basada en evidencia.\n\nNuestro equipo multidisciplinario trabaja colaborativamente para proporcionar planificación de tratamiento coordinada, cumplimiento regulatorio y continuidad de atención. Mantenemos un enfoque informado por trauma, culturalmente receptivo y enfocado en la recuperación, mientras colaboramos con proveedores de salud, gestores de casos y sistemas judiciales para apoyar la estabilidad a largo plazo y resultados medibles.",
     "openingHours": "Horario de Atención",
     "features": {
       "0": "Psicoterapia Individual y Grupal",
@@ -82,7 +84,7 @@
       "5": "Telesalud vía Plataforma VSee"
     },
     "hours": {
-      "0": { "day": "Lunes - Viernes", "time": "9:00 AM - 5:00 PM" },
+      "0": { "day": "Lunes - Viernes", "time": "5:00 PM - 9:00 PM" },
       "1": { "day": "Sábado", "time": "Con Cita" },
       "2": { "day": "Domingo", "time": "Cerrado" }
     }
@@ -92,45 +94,81 @@
     "title": "Programas de Tratamiento",
     "highlight": "Integrales",
     "description": "Desde evaluaciones diagnósticas hasta programas intensivos ambulatorios, ofrecemos un continuo completo de atención basada en evidencia adaptada a las necesidades de cada individuo.",
+    "modalFeatures": "Características Clave",
+    "modalModalities": "Modalidades Terapéuticas",
     "items": {
       "evaluations": {
         "title": "Evaluaciones de Salud Mental",
-        "description": "Evaluaciones diagnósticas integrales y evaluaciones referidas por tribunales. Documentación clara y defendible alineada con los estándares de Medicaid, estatales y federales.",
+        "description": "Evaluaciones diagnósticas integrales y evaluaciones referidas por tribunales. Documentación clara y defendible alineada con los estándares estatales y federales.",
         "features": {
           "0": "Evaluaciones diagnósticas integrales",
           "1": "Evaluaciones referidas y ordenadas por tribunales",
           "2": "Documentación clínica defendible",
-          "3": "Informes compatibles con Medicaid"
+          "3": "Informes en cumplimiento"
         }
       },
-      "psychotherapy": {
-        "title": "Psicoterapia Individual",
-        "description": "Consejería basada en evidencia utilizando CBT, DBT, ACT y REBT para abordar patrones de pensamiento, regulación emocional y cambio conductual duradero.",
+      "psychiatric": {
+        "title": "Evaluaciones Psiquiátricas",
+        "description": "Evaluaciones psiquiátricas clínicas realizadas bajo supervisión médica licenciada para clarificación diagnóstica y planificación de tratamiento.",
+        "features": {
+          "0": "Evaluaciones diagnósticas psiquiátricas",
+          "1": "Clarificación diagnóstica basada en DSM",
+          "2": "Evaluación de medicamentos",
+          "3": "Planificación de tratamiento"
+        }
+      },
+      "courtReferred": {
+        "title": "Servicios Referidos por Tribunales",
+        "description": "Evaluaciones y documentación diseñadas para requisitos legales y de libertad condicional.",
+        "features": {
+          "0": "Evaluaciones ordenadas por tribunales",
+          "1": "Documentación de cumplimiento de libertad condicional",
+          "2": "Evaluaciones de requisitos legales",
+          "3": "Programas de tratamiento obligatorio"
+        }
+      },
+      "therapy": {
+        "title": "Terapia Individual/Grupal",
+        "description": "Consejería individual y grupal basada en evidencia utilizando una amplia gama de modalidades terapéuticas para abordar patrones de pensamiento, regulación emocional y cambio conductual duradero.",
         "features": {
           "0": "Terapia Cognitivo Conductual (CBT)",
           "1": "Terapia Dialéctica Conductual (DBT)",
-          "2": "Terapia de Aceptación y Compromiso (ACT)",
-          "3": "Terapia Racional Emotiva Conductual"
+          "2": "Terapia Psicodinámica",
+          "3": "Terapia de Aceptación y Compromiso (ACT)",
+          "4": "Terapia de Exposición",
+          "5": "Terapia Interpersonal (IPT)",
+          "6": "Terapia Humanista/Centrada en el Cliente",
+          "7": "Terapia Familiar/Sistémica",
+          "8": "Terapia Basada en la Mentalización (MBT)",
+          "9": "Activación Conductual",
+          "10": "Terapia Cognitiva Basada en Mindfulness (MBCT)",
+          "11": "Terapia Breve Centrada en Soluciones (SFBT)",
+          "12": "Terapia de Esquemas"
         }
       },
       "iop": {
         "title": "Programa Intensivo Ambulatorio",
-        "description": "Tratamiento estructurado con múltiples sesiones semanales para personas que necesitan más apoyo que la terapia semanal sin hospitalización.",
+        "description": "Serenity Behavioral Services ofrece un Programa Intensivo Ambulatorio (IOP) de 12 semanas, 3 días/semana, 3 horas/sesión, tanto presencial como virtual para mejorar el acceso a la atención estructurada de salud conductual. También proporcionamos asistencia de transporte para clientes elegibles para reducir barreras y apoyar la participación consistente.\n\nNuestro IOP está diseñado para personas que necesitan un nivel más alto de atención ambulatoria o que están en transición desde tratamiento hospitalario o residencial. A través de supervisión clínica coordinada y programación estructurada, nos enfocamos en mejorar la estabilidad de síntomas, la regulación emocional y la independencia funcional.",
         "features": {
-          "0": "Múltiples sesiones por semana",
-          "1": "Estabilización de síntomas",
-          "2": "Habilidades de afrontamiento y regulación conductual",
-          "3": "Seguimiento activo del progreso"
+          "0": "Programa de 12 semanas",
+          "1": "3 días/semana, 3 horas/sesión",
+          "2": "Presencial y virtual disponible",
+          "3": "Asistencia de transporte para clientes elegibles"
         }
       },
       "psr": {
         "title": "Rehabilitación Psicosocial",
-        "description": "Servicios basados en habilidades y orientados a metas para ayudar a las personas a desarrollar habilidades de vida diaria, sociales y de afrontamiento para mayor independencia.",
+        "description": "Servicios basados en habilidades y orientados a metas para ayudar a las personas a desarrollar habilidades de vida diaria, sociales y de afrontamiento para mayor independencia. Programa de 8-24 semanas, 2-5 días/semana, 1-4 horas/día.",
         "features": {
-          "0": "Entrenamiento en regulación emocional",
-          "1": "Comunicación y habilidades sociales",
-          "2": "Construcción de rutinas y habilidades de vida",
-          "3": "Apoyo al funcionamiento comunitario"
+          "0": "Regulación emocional",
+          "1": "Desarrollo de habilidades sociales",
+          "2": "Manejo del estrés",
+          "3": "Habilidades de vida independiente",
+          "4": "Integración comunitaria",
+          "5": "Resolución de problemas y toma de decisiones",
+          "6": "Gestión del tiempo y habilidades organizativas",
+          "7": "Apoyo de preparación para el empleo",
+          "8": "Estabilización conductual"
         }
       },
       "trauma": {
@@ -153,16 +191,6 @@
           "3": "Coaching de recuperación"
         }
       },
-      "groups": {
-        "title": "Terapia Grupal",
-        "description": "Intervenciones grupales estructuradas incluyendo habilidades DBT, prevención de recaídas, manejo de la ira y sesiones psicoeducativas.",
-        "features": {
-          "0": "Grupos de habilidades DBT y CBT",
-          "1": "Grupos de manejo de la ira",
-          "2": "Grupos de prevención de recaídas",
-          "3": "Sesiones psicoeducativas"
-        }
-      },
       "telehealth": {
         "title": "Servicios de Telesalud",
         "description": "Tratamiento virtual compatible con HIPAA a través de la plataforma VSee, disponible para sesiones individuales y grupales cuando sea clínicamente apropiado.",
@@ -170,9 +198,58 @@
           "0": "Video compatible con HIPAA (VSee)",
           "1": "Sesiones individuales y grupales",
           "2": "Horarios flexibles",
-          "3": "Entrega aprobada por Medicaid"
+          "3": "Accesible desde cualquier lugar"
         }
       }
+    }
+  },
+  "conditions": {
+    "overline": "Condiciones que Tratamos",
+    "title": "Tratamiento Integral de",
+    "highlight": "Salud Mental",
+    "description": "Serenity Behavioral Services ofrece evaluación y tratamiento para una amplia gama de condiciones de salud mental y conductuales, incluyendo:",
+    "items": {
+      "0": {
+        "title": "Trastornos del Estado de Ánimo",
+        "description": "Depresión, Trastorno Bipolar e inestabilidad anímica relacionada"
+      },
+      "1": {
+        "title": "Trastornos de Ansiedad",
+        "description": "Ansiedad Generalizada, Trastorno de Pánico, Ansiedad Social y fobias"
+      },
+      "2": {
+        "title": "Condiciones Relacionadas con Trauma",
+        "description": "Trastorno de Estrés Postraumático (TEPT), estrés agudo y síntomas relacionados con trauma"
+      },
+      "3": {
+        "title": "Trastornos Psicóticos",
+        "description": "Espectro de esquizofrenia y trastornos relacionados"
+      },
+      "4": {
+        "title": "Uso de Sustancias y Trastornos Concurrentes",
+        "description": "Trastornos por uso de alcohol y drogas junto con condiciones de salud mental"
+      },
+      "5": {
+        "title": "Atención y Preocupaciones Conductuales",
+        "description": "TDAH, desafíos de control de impulsos, dificultades de manejo de la ira"
+      },
+      "6": {
+        "title": "Ajuste y Estresores de Vida",
+        "description": "Duelo, estrés relacional, estrés laboral y tratamiento referido por tribunales"
+      }
+    }
+  },
+  "admissions": {
+    "overline": "Admisiones y Pagos",
+    "title": "Información de Admisiones",
+    "highlight": "y Pagos",
+    "privatePay": {
+      "title": "Opciones de Pago Privado",
+      "description": "Serenity Behavioral Services ofrece tarifas accesibles de pago privado para personas que buscan acceso flexible a la atención. Por favor contacte nuestra oficina para discutir precios actuales y disponibilidad de horarios."
+    },
+    "insurance": {
+      "title": "Cobertura de Seguro",
+      "description": "Aceptamos Medicare, Medicaid y planes de seguro comercial selectos. Nuestro equipo le asistirá en verificar beneficios y determinar su cobertura antes de su primera cita para asegurar transparencia y minimizar costos inesperados."
     }
   },
   "appointment": {
@@ -180,6 +257,7 @@
     "title": "Programe Su",
     "highlight": "Consulta",
     "description": "Dé el primer paso hacia la recuperación. Complete el formulario y nuestro equipo se comunicará con usted prontamente.",
+    "extendedHours": "Nuestro equipo ofrece horario extendido en las tardes para acomodar las necesidades de los clientes de lunes a viernes de 5pm-9pm. Incluyendo disponibilidad los sábados con cita.",
     "emailSubject": "Solicitud de Cita - {service}",
     "serviceOptions": {
       "0": "Evaluación de Salud Mental",
@@ -197,8 +275,8 @@
     "title": "Construido para la Responsabilidad, Diseñado para",
     "highlight": "Resultados",
     "description": "Entendemos que muchas referencias involucran individuos complejos — condiciones concurrentes, obligaciones legales o plazos de cumplimiento. Nuestra clínica maneja estas realidades.",
-    "badge": "Tipo 14",
-    "badgeLabel": "Proveedor Medicaid",
+    "badge": "Licenciado",
+    "badgeLabel": "Práctica Clínica",
     "pillars": {
       "0": {
         "title": "Cumplimiento con Medicaid",
@@ -214,7 +292,7 @@
       },
       "3": {
         "title": "Experiencia Clínica",
-        "description": "Personal con LCSW, QMHP, FNP y entrenamiento en EMDR brinda atención que cumple con los más altos estándares clínicos."
+        "description": "Personal con QMHP, FNP y entrenamiento en EMDR brinda atención que cumple con los más altos estándares clínicos."
       }
     }
   },
@@ -236,14 +314,14 @@
         "4": "Programas Legales y Tribunales"
       }
     },
-    "arnaldo-morejon": {
-      "title": "Clínico Psiquiátrico",
-      "bio": "Profesional de Salud Mental Calificado y Practicante de Enfermería Familiar que combina experiencia clínica psiquiátrica con entrenamiento médico avanzado. Experiencia en enfermería correccional, atención psiquiátrica y manejo de casos complejos.",
+    "luz-morales": {
+      "title": "Practicante de Enfermería en Salud Mental Psiquiátrica",
+      "bio": "Luz Morales, PMHNP, puede evaluar, diagnosticar (basado en DSM), recetar y manejar medicamentos psiquiátricos de forma independiente en Nevada.",
       "specialties": {
         "0": "Evaluación Psiquiátrica",
-        "1": "Coordinación de Medicamentos",
-        "2": "Estabilización en Crisis",
-        "3": "Trastornos Concurrentes",
+        "1": "Diagnóstico Basado en DSM",
+        "2": "Prescripción de Medicamentos",
+        "3": "Manejo de Medicamentos",
         "4": "Planificación de Tratamiento"
       }
     },
@@ -342,7 +420,7 @@
   "featuredDoctor": {
     "overline": "Directora Clínica",
     "highlights": {
-      "0": "Licencia LCSW",
+      "0": "Personal Clínico Licenciado",
       "1": "Entrenada en EMDR",
       "2": "Supervisora Clínica",
       "3": "Especialista en Trauma"
@@ -356,7 +434,7 @@
     "items": {
       "0": {
         "question": "¿Qué tipos de seguro aceptan?",
-        "answer": "Somos un proveedor inscrito en Medicaid (Tipo de Proveedor 14). Trabajamos con varios planes de atención administrada de Medicaid en Nevada. Contáctenos para verificar su cobertura específica."
+        "answer": "Aceptamos Medicare, Medicaid y planes de seguro comercial selectos. Contáctenos para verificar su cobertura específica."
       },
       "1": {
         "question": "¿Aceptan clientes referidos u ordenados por tribunales?",
@@ -372,7 +450,7 @@
       },
       "4": {
         "question": "¿Cómo hago una referencia?",
-        "answer": "Puede referir a un cliente llamándonos al (702) 665-5035, enviando un correo a info{'@'}serenitybhs.com, o usando nuestro formulario de contacto en línea. Respondemos a todas las referencias con prontitud y comenzamos el proceso de ingreso de inmediato."
+        "answer": "Puede referir a un cliente llamándonos al (702) 665-5035, enviando un correo a serenitybslv{'@'}gmail.com, o usando nuestro formulario de contacto en línea. Respondemos a todas las referencias con prontitud y comenzamos el proceso de ingreso de inmediato."
       },
       "5": {
         "question": "¿Qué terapias basadas en evidencia utilizan?",
@@ -385,16 +463,23 @@
     "highlight": "Su Camino?",
     "subtitle": "Ya sea que usted sea un socio de referencia, profesional judicial o individuo que busca atención, estamos aquí para ayudarle. Contáctenos hoy."
   },
+  "referral": {
+    "title": "Referir a un Paciente",
+    "description": "Envíe una referencia llamándonos, enviando un correo electrónico o usando nuestro formulario de contacto en línea. Respondemos a todas las referencias con prontitud y comenzamos el proceso de ingreso de inmediato.",
+    "callLabel": "Llamar para Referir",
+    "emailLabel": "Referir por Correo",
+    "formLabel": "Usar Formulario de Contacto"
+  },
   "footer": {
-    "tagline": "Serenity Behavioral Services brinda atención de salud conductual basada en evidencia en Las Vegas, Nevada. Proveedor Medicaid Tipo 14. Confianza de tribunales, socios comunitarios e individuos.",
+    "tagline": "Serenity Behavioral Services brinda atención de salud conductual basada en evidencia en Las Vegas, Nevada. Confianza de tribunales, socios comunitarios e individuos.",
     "servicesHeading": "Nuestros Servicios",
     "quickLinksHeading": "Enlaces Rápidos",
     "contactHeading": "Información de Contacto",
     "getInTouch": "Comuníquese con Nosotros",
     "hoursLabel": "Horario",
-    "hoursValue": "Lun-Vie: 9AM - 5PM",
+    "hoursValue": "Lun-Vie: 5PM - 9PM",
     "copyright": "Serenity Behavioral Services. Todos los Derechos Reservados.",
-    "copyrightSuffix": "Proveedor Medicaid Tipo 14",
+    "copyrightSuffix": "Proveedor de Salud Conductual Licenciado",
     "serviceLinks": {
       "0": "Evaluaciones de Salud Mental",
       "1": "Psicoterapia Individual",
@@ -417,11 +502,11 @@
     "telehealth": "Telesalud",
     "vseePlatform": "Plataforma VSee",
     "location": "Ubicación",
-    "lasVegas": "Las Vegas, NV"
+    "lasVegas": "4680 S Eastern Ave. Suite B, Las Vegas, NV 89119"
   },
   "meta": {
     "homeTitle": "Atención de Salud Conductual Basada en Evidencia",
-    "homeDescription": "Serenity Behavioral Services brinda atención integral de salud conductual basada en evidencia en Las Vegas, Nevada. Confianza de tribunales, socios comunitarios e individuos. Proveedor Medicaid Tipo 14."
+    "homeDescription": "Serenity Behavioral Services brinda atención integral de salud conductual basada en evidencia en Las Vegas, Nevada. Confianza de tribunales, socios comunitarios e individuos."
   },
   "scrollToTop": {
     "ariaLabel": "Volver arriba"

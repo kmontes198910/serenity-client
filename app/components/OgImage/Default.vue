@@ -29,7 +29,7 @@ defineProps<{
         {{ title || 'Behavioral Health Services' }}
       </h1>
       <p style="color: #8bbedf; font-size: 24px; line-height: 1.4; max-width: 80%;">
-        {{ description || 'Outpatient behavioral health clinic in Las Vegas, Nevada. Medicaid Provider Type 14.' }}
+        {{ description || 'Outpatient behavioral health clinic in Las Vegas, Nevada. Trusted by courts, community partners, and individuals.' }}
       </p>
     </div>
 

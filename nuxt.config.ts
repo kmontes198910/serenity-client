@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://serenitybhs.com',
     name: 'Serenity Behavioral Services',
-    description: 'Outpatient behavioral health clinic in Las Vegas, Nevada. Medicaid Provider Type 14.',
+    description: 'Outpatient behavioral health clinic in Las Vegas, Nevada. Trusted by courts, community partners, and individuals.',
   },
 
   css: ['~/assets/css/tailwind.css'],

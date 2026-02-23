@@ -54,14 +54,6 @@ function cardTransform(speed: number) {
       <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center w-full">
         <!-- Left: Content -->
         <div class="relative z-10">
-          <div
-            v-reveal
-            class="inline-flex items-center gap-2 px-4 py-2 bg-accent-50 border border-accent-200 rounded-full text-sm font-semibold text-accent-600 mb-6"
-          >
-            <Shield class="h-4 w-4" />
-            {{ t('badges.medicaidProvider') }}
-          </div>
-
           <h1
             v-reveal="{ delay: 100 }"
             class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] text-navy-900"
@@ -139,7 +131,7 @@ function cardTransform(speed: number) {
         </div>
       </div>
 
-      <!-- Floating card: LCSW (moves medium) -->
+      <!-- Floating card: Licensed Clinical Staff (moves medium) -->
       <div
         v-reveal:right="{ delay: 600 }"
         class="hidden lg:flex absolute right-[5%] bottom-[25%] bg-white rounded-xl shadow-xl shadow-navy-900/10 p-4 items-center gap-3 z-10 transition-transform duration-300 ease-out"
@@ -149,8 +141,7 @@ function cardTransform(speed: number) {
           <Award class="h-6 w-6 text-accent-400" />
         </div>
         <div>
-          <p class="text-2xl font-heading font-bold text-navy-900">LCSW</p>
-          <p class="text-xs text-navy-500">{{ t('hero.licensedClinicalStaff') }}</p>
+          <p class="text-lg font-heading font-bold text-navy-900">{{ t('hero.licensedClinicalStaff') }}</p>
         </div>
       </div>
 

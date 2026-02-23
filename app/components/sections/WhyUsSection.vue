@@ -32,11 +32,7 @@ const pillars = computed(() =>
             />
           </div>
 
-          <!-- Years badge -->
-          <div class="absolute -bottom-6 -right-6 bg-accent-400 rounded-xl p-5 shadow-xl text-center">
-            <p class="text-3xl font-heading font-bold text-navy-900">{{ t('whyUs.badge') }}</p>
-            <p class="text-xs font-bold text-navy-900/70 mt-0.5">{{ t('whyUs.badgeLabel') }}</p>
-          </div>
+          <!-- Badge hidden: pending client update -->
         </div>
 
         <!-- Right: Content -->

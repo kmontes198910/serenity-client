@@ -6,6 +6,8 @@ export function useNavigation() {
   const items = computed<NavigationItem[]>(() => [
     { label: t('nav.home'), to: '/#hero' },
     { label: t('nav.services'), to: '/#services' },
+    { label: t('nav.conditions'), to: '/#conditions' },
+    { label: t('nav.admissions'), to: '/#admissions' },
     { label: t('nav.team'), to: '/#team' },
     { label: t('nav.about'), to: '/#about' },
     { label: t('nav.contact'), to: '/#contact' },

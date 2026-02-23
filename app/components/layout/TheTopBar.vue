@@ -18,13 +18,13 @@ const { t } = useI18n()
               <p class="text-sm font-bold text-navy-800">(702) 665-5035</p>
             </div>
           </a>
-          <a href="mailto:info@serenitybhs.com" class="flex items-center gap-3 px-7 group">
+          <a href="mailto:serenitybslv@gmail.com" class="flex items-center gap-3 px-7 group">
             <div class="w-10 h-10 rounded-full bg-accent-50 flex items-center justify-center group-hover:bg-accent-400 transition-colors">
               <Mail class="h-4 w-4 text-accent-500 group-hover:text-white transition-colors" />
             </div>
             <div>
               <p class="text-[11px] font-semibold text-accent-500 uppercase tracking-wider">{{ t('topbar.emailSupport') }}</p>
-              <p class="text-sm font-bold text-navy-800">info@serenitybhs.com</p>
+              <p class="text-sm font-bold text-navy-800">serenitybslv@gmail.com</p>
             </div>
           </a>
           <NuxtLink to="/#contact" class="flex items-center gap-3 px-7 group">

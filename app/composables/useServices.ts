@@ -3,28 +3,42 @@ import type { Service } from '~/types'
 export function useServices() {
   const { t } = useI18n()
 
-  const serviceIds = ['evaluations', 'psychotherapy', 'iop', 'psr', 'trauma', 'substance', 'groups', 'telehealth'] as const
+  const serviceIds = ['evaluations', 'psychiatric', 'courtReferred', 'therapy', 'iop', 'psr', 'trauma', 'substance', 'telehealth'] as const
 
   const iconMap: Record<string, string> = {
     evaluations: 'clipboard-check',
-    psychotherapy: 'brain',
+    psychiatric: 'stethoscope',
+    courtReferred: 'scale',
+    therapy: 'brain',
     iop: 'calendar-range',
     psr: 'users',
     trauma: 'shield-check',
     substance: 'heart-handshake',
-    groups: 'message-circle',
     telehealth: 'monitor-smartphone',
   }
 
   const slugMap: Record<string, string> = {
     evaluations: 'evaluations',
-    psychotherapy: 'psychotherapy',
+    psychiatric: 'psychiatric-evaluations',
+    courtReferred: 'court-referred',
+    therapy: 'therapy',
     iop: 'intensive-outpatient',
     psr: 'psychosocial-rehabilitation',
     trauma: 'trauma-treatment',
     substance: 'substance-recovery',
-    groups: 'group-therapy',
     telehealth: 'telehealth',
+  }
+
+  const featureCountMap: Record<string, number> = {
+    evaluations: 4,
+    psychiatric: 4,
+    courtReferred: 4,
+    therapy: 13,
+    iop: 4,
+    psr: 9,
+    trauma: 4,
+    substance: 4,
+    telehealth: 4,
   }
 
   const services = computed<Service[]>(() =>
@@ -33,7 +47,7 @@ export function useServices() {
       title: t(`services.items.${id}.title`),
       description: t(`services.items.${id}.description`),
       icon: iconMap[id],
-      features: [0, 1, 2, 3].map(i => t(`services.items.${id}.features.${i}`)),
+      features: Array.from({ length: featureCountMap[id] }, (_, i) => t(`services.items.${id}.features.${i}`)),
       slug: slugMap[id],
     })),
   )

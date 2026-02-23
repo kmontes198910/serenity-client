@@ -5,7 +5,7 @@ export function useStaff() {
 
   const staffData = [
     { id: 'elsa-villalobos', name: 'Elsa Villalobos', credentials: 'LCSW', role: 'leadership', initials: 'EV', gradientFrom: '#0d9488', gradientTo: '#0ea5e9', specialtyCount: 5 },
-    { id: 'arnaldo-morejon', name: 'Arnaldo Morejon-Suarez', credentials: 'FNP, QMHP', role: 'clinical', initials: 'AM', gradientFrom: '#0f766e', gradientTo: '#0284c7', specialtyCount: 5 },
+    { id: 'luz-morales', name: 'Luz Morales', credentials: 'PMHNP', role: 'clinical', initials: 'LM', gradientFrom: '#0f766e', gradientTo: '#0284c7', specialtyCount: 5 },
     { id: 'stephanie-more-texier', name: 'Stephanie More-Texier', credentials: 'QMHA', role: 'support', initials: 'SM', gradientFrom: '#14b8a6', gradientTo: '#38bdf8', specialtyCount: 5 },
     { id: 'juan-freije', name: 'Juan Freije', credentials: 'RN, QMHA', role: 'clinical', initials: 'JF', gradientFrom: '#0d9488', gradientTo: '#7dd3fc', specialtyCount: 5 },
     { id: 'damian-perez', name: 'Damian Perez', credentials: 'QBA', role: 'support', initials: 'DP', gradientFrom: '#115e59', gradientTo: '#0ea5e9', specialtyCount: 5 },

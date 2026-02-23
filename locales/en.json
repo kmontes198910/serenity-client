@@ -5,6 +5,8 @@
     "about": "About",
     "team": "Our Team",
     "contact": "Contact",
+    "conditions": "Conditions",
+    "admissions": "Admissions",
     "testimonials": "Testimonials",
     "faq": "FAQ"
   },
@@ -21,7 +23,7 @@
     "bookNow": "Book Now"
   },
   "badges": {
-    "medicaidProvider": "Medicaid Provider Type 14",
+    "medicaidProvider": "Licensed Behavioral Health Provider",
     "licensedStaff": "Licensed Staff",
     "courtApproved": "Court Approved",
     "hipaaCompliant": "HIPAA Compliant",
@@ -51,10 +53,10 @@
     "tellUsNeeds": "Tell us about your needs..."
   },
   "hero": {
-    "title": "Evidence-Based",
+    "title": "Integrated Psychiatric &",
     "highlight": "Behavioral",
     "titleEnd": "Health Care",
-    "subtitle": "Comprehensive mental health services in Las Vegas, Nevada. Trusted by courts, community partners, and individuals for quality outpatient treatment.",
+    "subtitle": "Evidence-based therapy, medication management, and rehabilitation services delivered under licensed medical supervision in Nevada. Trusted by courts, community partners, and individual for quality outpatient treatment.",
     "nowOpen": "Now Open",
     "acceptingReferrals": "Accepting Referrals",
     "licensedClinicalStaff": "Licensed Clinical Staff",
@@ -64,14 +66,14 @@
   "stats": {
     "servicesOffered": "Services Offered",
     "treatmentPrograms": "Treatment Programs",
-    "licensedClinicians": "Licensed Clinicians",
+    "licensedClinicians": "Licensed and Credentialed Behavioral Health Providers",
     "evidenceBasedCare": "Evidence-Based Care"
   },
   "facilities": {
     "overline": "About Our Practice",
-    "title": "Comprehensive Behavioral Health",
-    "highlight": "Services",
-    "description": "Serenity Behavioral Services is a Medicaid-enrolled outpatient clinic delivering structured, evidence-based treatment for individuals and families in the Las Vegas community.",
+    "title": "Integrated Psychiatric &",
+    "highlight": "Behavioral Health",
+    "description": "Serenity Behavioral Services is an integrated psychiatric and behavioral health practice serving the Las Vegas community. We operate under licensed clinical and medical supervision to ensure structured, ethical, and evidence-based care.\n\nOur multidisciplinary team works collaboratively to provide coordinated treatment planning, regulatory compliance, and continuity of care. We maintain a trauma-informed, culturally responsive, and recovery-focused approach while partnering with healthcare providers, case managers, and court systems to support long-term stability and measurable outcomes.",
     "openingHours": "Opening Hours",
     "features": {
       "0": "Individual & Group Psychotherapy",
@@ -82,7 +84,7 @@
       "5": "Telehealth via VSee Platform"
     },
     "hours": {
-      "0": { "day": "Monday - Friday", "time": "9:00 AM - 5:00 PM" },
+      "0": { "day": "Monday - Friday", "time": "5:00 PM - 9:00 PM" },
       "1": { "day": "Saturday", "time": "By Appointment" },
       "2": { "day": "Sunday", "time": "Closed" }
     }
@@ -92,45 +94,81 @@
     "title": "Comprehensive Treatment",
     "highlight": "Programs",
     "description": "From diagnostic evaluations to intensive outpatient programs, we provide a full continuum of evidence-based care tailored to each individual's needs.",
+    "modalFeatures": "Key Features",
+    "modalModalities": "Therapeutic Modalities",
     "items": {
       "evaluations": {
         "title": "Mental Health Evaluations",
-        "description": "Comprehensive diagnostic assessments and court-referred evaluations. Clear, defensible documentation aligned with Medicaid, state, and federal standards.",
+        "description": "Comprehensive diagnostic assessments and court-referred evaluations. Clear, defensible documentation aligned with state and federal standards.",
         "features": {
           "0": "Comprehensive diagnostic assessments",
           "1": "Court-referred & court-ordered evaluations",
           "2": "Defensible clinical documentation",
-          "3": "Medicaid-compliant reporting"
+          "3": "Compliant reporting"
         }
       },
-      "psychotherapy": {
-        "title": "Individual Psychotherapy",
-        "description": "Evidence-based counseling using CBT, DBT, ACT, and REBT to address thinking patterns, emotional regulation, and lasting behavioral change.",
+      "psychiatric": {
+        "title": "Psychiatric Evaluations",
+        "description": "Clinical psychiatric assessments conducted under licensed medical supervision for diagnostic clarification and treatment planning.",
+        "features": {
+          "0": "Psychiatric diagnostic assessments",
+          "1": "DSM-based diagnostic clarification",
+          "2": "Medication evaluation",
+          "3": "Treatment planning"
+        }
+      },
+      "courtReferred": {
+        "title": "Court-Referred Services",
+        "description": "Evaluations and documentation designed for legal and probation requirements.",
+        "features": {
+          "0": "Court-ordered evaluations",
+          "1": "Probation compliance documentation",
+          "2": "Legal requirement assessments",
+          "3": "Mandated treatment programs"
+        }
+      },
+      "therapy": {
+        "title": "Individual/Group Therapy",
+        "description": "Evidence-based individual and group counseling using a wide range of therapeutic modalities to address thinking patterns, emotional regulation, and lasting behavioral change.",
         "features": {
           "0": "Cognitive Behavioral Therapy (CBT)",
           "1": "Dialectical Behavior Therapy (DBT)",
-          "2": "Acceptance & Commitment Therapy (ACT)",
-          "3": "Rational Emotive Behavioral Therapy"
+          "2": "Psychodynamic Therapy",
+          "3": "Acceptance and Commitment Therapy (ACT)",
+          "4": "Exposure Therapy",
+          "5": "Interpersonal Therapy (IPT)",
+          "6": "Humanistic/Client-Centered Therapy",
+          "7": "Family/Systemic Therapy",
+          "8": "Mentalization-Based Therapy (MBT)",
+          "9": "Behavioral Activation",
+          "10": "Mindfulness-Based Cognitive Therapy (MBCT)",
+          "11": "Solution-Focused Brief Therapy (SFBT)",
+          "12": "Schema Therapy"
         }
       },
       "iop": {
         "title": "Intensive Outpatient Program",
-        "description": "Structured treatment with multiple weekly sessions for individuals needing more support than weekly therapy without inpatient hospitalization.",
+        "description": "Serenity Behavioral Services offers an Intensive Outpatient Program (IOP) 12-week program, 3 days/week, 3 hours/session, in both in-person and Virtual to improve access to structured behavioral health care. We also provide transportation assistance for eligible clients to reduce barriers and support consistent participation.\n\nOur IOP is designed for individuals needing a higher level of outpatient care or transitioning from inpatient or residential treatment. Through coordinated clinical oversight and structured programming, we focus on improving symptom stability, emotional regulation, and functional independence.",
         "features": {
-          "0": "Multiple sessions per week",
-          "1": "Symptom stabilization",
-          "2": "Coping skills & behavioral regulation",
-          "3": "Active progress tracking"
+          "0": "12-week program",
+          "1": "3 days/week, 3 hours/session",
+          "2": "In-person and Virtual available",
+          "3": "Transportation assistance for eligible clients"
         }
       },
       "psr": {
         "title": "Psychosocial Rehabilitation",
-        "description": "Skills-based, goal-oriented services to help individuals develop daily living, social, and coping skills for greater independence.",
+        "description": "Skills-based, goal-oriented services to help individuals develop daily living, social, and coping skills for greater independence. 8-24-week program, 2-5 days/week, 1-4 hours/day.",
         "features": {
-          "0": "Emotional regulation training",
-          "1": "Communication & social skills",
-          "2": "Routine building & life skills",
-          "3": "Community functioning support"
+          "0": "Emotional regulation",
+          "1": "Social skills development",
+          "2": "Stress management",
+          "3": "Independent living skills",
+          "4": "Community integration",
+          "5": "Problem-solving and decision-making",
+          "6": "Time management and organizational skills",
+          "7": "Employment readiness support",
+          "8": "Behavioral stabilization"
         }
       },
       "trauma": {
@@ -153,16 +191,6 @@
           "3": "Recovery coaching"
         }
       },
-      "groups": {
-        "title": "Group Therapy",
-        "description": "Structured group interventions including DBT skills, relapse prevention, anger management, and psychoeducation sessions.",
-        "features": {
-          "0": "DBT & CBT skills groups",
-          "1": "Anger management groups",
-          "2": "Relapse prevention groups",
-          "3": "Psychoeducation sessions"
-        }
-      },
       "telehealth": {
         "title": "Telehealth Services",
         "description": "HIPAA-compliant virtual treatment through the VSee platform, available for individual and group sessions when clinically appropriate.",
@@ -170,9 +198,58 @@
           "0": "HIPAA-compliant video (VSee)",
           "1": "Individual & group sessions",
           "2": "Flexible scheduling",
-          "3": "Medicaid-approved delivery"
+          "3": "Accessible from anywhere"
         }
       }
+    }
+  },
+  "conditions": {
+    "overline": "Conditions We Treat",
+    "title": "Comprehensive Mental Health",
+    "highlight": "Treatment",
+    "description": "Serenity Behavioral Services provides evaluation and treatment for a wide range of mental health and behavioral conditions, including:",
+    "items": {
+      "0": {
+        "title": "Mood Disorders",
+        "description": "Depression, Bipolar Disorder, and related mood instability"
+      },
+      "1": {
+        "title": "Anxiety Disorders",
+        "description": "Generalized Anxiety, Panic Disorder, Social Anxiety, and phobias"
+      },
+      "2": {
+        "title": "Trauma-Related Conditions",
+        "description": "Post-Traumatic Stress Disorder (PTSD), acute stress, and trauma-related symptoms"
+      },
+      "3": {
+        "title": "Psychotic Disorders",
+        "description": "Schizophrenia spectrum and related disorders"
+      },
+      "4": {
+        "title": "Substance Use & Co-Occurring Disorders",
+        "description": "Alcohol and drug use disorders alongside mental health conditions"
+      },
+      "5": {
+        "title": "Attention & Behavioral Concerns",
+        "description": "ADHD, impulse control challenges, anger management difficulties"
+      },
+      "6": {
+        "title": "Adjustment & Life Stressors",
+        "description": "Grief, relationship stress, work-related stress, and court-referred treatment"
+      }
+    }
+  },
+  "admissions": {
+    "overline": "Admissions & Payment",
+    "title": "Admissions & Payment",
+    "highlight": "Information",
+    "privatePay": {
+      "title": "Private Pay Options",
+      "description": "Serenity Behavioral Services offers affordable private pay rates for individuals seeking flexible access to care. Please contact our office to discuss current pricing and scheduling availability."
+    },
+    "insurance": {
+      "title": "Insurance Coverage",
+      "description": "We accept Medicare, Medicaid and select commercial insurance plans. Our team will assist you in verifying benefits and determining your coverage prior to your first appointment to ensure transparency and minimize unexpected costs."
     }
   },
   "appointment": {
@@ -180,6 +257,7 @@
     "title": "Schedule Your",
     "highlight": "Consultation",
     "description": "Take the first step toward recovery. Fill out the form and our team will get back to you promptly.",
+    "extendedHours": "Our team offers extended evening hours to accommodate client needs Monday-Friday from 5pm-9pm. Including Saturday availability by appointment.",
     "emailSubject": "Appointment Request - {service}",
     "serviceOptions": {
       "0": "Mental Health Evaluation",
@@ -197,8 +275,8 @@
     "title": "Built for Accountability, Designed for",
     "highlight": "Results",
     "description": "We understand that many referrals involve complex individuals — co-occurring conditions, legal obligations, or compliance deadlines. Our clinic handles these realities.",
-    "badge": "Type 14",
-    "badgeLabel": "Medicaid Provider",
+    "badge": "Licensed",
+    "badgeLabel": "Clinical Practice",
     "pillars": {
       "0": {
         "title": "Medicaid Compliant",
@@ -214,7 +292,7 @@
       },
       "3": {
         "title": "Clinical Expertise",
-        "description": "LCSW, QMHP, FNP and EMDR-trained staff deliver care that meets the highest clinical standards."
+        "description": "QMHP, FNP and EMDR-trained staff deliver care that meets the highest clinical standards."
       }
     }
   },
@@ -236,14 +314,14 @@
         "4": "Court & Legal Programs"
       }
     },
-    "arnaldo-morejon": {
-      "title": "Psychiatric Clinician",
-      "bio": "Qualified Mental Health Professional and Family Nurse Practitioner combining psychiatric clinical experience with advanced medical training. Background in correctional nursing, psychiatric care, and complex case management.",
+    "luz-morales": {
+      "title": "Psychiatric Mental Health Nurse Practitioner",
+      "bio": "Luz Morales, PMHNP, can independently evaluate, diagnose (DSM-based), prescribe, and manage psychiatric medications in Nevada.",
       "specialties": {
-        "0": "Psychiatric Assessment",
-        "1": "Medication Coordination",
-        "2": "Crisis Stabilization",
-        "3": "Co-occurring Disorders",
+        "0": "Psychiatric Evaluation",
+        "1": "DSM-Based Diagnosis",
+        "2": "Medication Prescribing",
+        "3": "Medication Management",
         "4": "Treatment Planning"
       }
     },
@@ -342,7 +420,7 @@
   "featuredDoctor": {
     "overline": "Clinical Director",
     "highlights": {
-      "0": "LCSW Licensed",
+      "0": "Licensed Clinical Staff",
       "1": "EMDR Trained",
       "2": "Clinical Supervisor",
       "3": "Trauma Specialist"
@@ -356,7 +434,7 @@
     "items": {
       "0": {
         "question": "What types of insurance do you accept?",
-        "answer": "We are a Medicaid-enrolled provider (Provider Type 14). We work with various Medicaid managed care plans in Nevada. Contact us to verify your specific coverage."
+        "answer": "We accept Medicare, Medicaid and select commercial insurance plans. Contact us to verify your specific coverage."
       },
       "1": {
         "question": "Do you accept court-referred or court-ordered clients?",
@@ -372,7 +450,7 @@
       },
       "4": {
         "question": "How do I make a referral?",
-        "answer": "You can refer a client by calling us at (702) 665-5035, emailing info{'@'}serenitybhs.com, or using our online contact form. We respond to all referrals promptly and begin the intake process immediately."
+        "answer": "You can refer a client by calling us at (702) 665-5035, emailing serenitybslv{'@'}gmail.com, or using our online contact form. We respond to all referrals promptly and begin the intake process immediately."
       },
       "5": {
         "question": "What evidence-based therapies do you use?",
@@ -385,16 +463,23 @@
     "highlight": "Your Journey?",
     "subtitle": "Whether you're a referral partner, court professional, or individual seeking care, we're here to help. Contact us today."
   },
+  "referral": {
+    "title": "Refer a Patient",
+    "description": "Submit a referral by calling us, emailing, or using our online contact form. We respond to all referrals promptly and begin the intake process immediately.",
+    "callLabel": "Call to Refer",
+    "emailLabel": "Email Referral",
+    "formLabel": "Use Contact Form"
+  },
   "footer": {
-    "tagline": "Serenity Behavioral Services provides evidence-based behavioral health care in Las Vegas, Nevada. Medicaid Provider Type 14. Trusted by courts, community partners, and individuals.",
+    "tagline": "Serenity Behavioral Services provides evidence-based behavioral health care in Las Vegas, Nevada. Trusted by courts, community partners, and individuals.",
     "servicesHeading": "Our Services",
     "quickLinksHeading": "Quick Links",
     "contactHeading": "Contact Info",
     "getInTouch": "Get in Touch with Us",
     "hoursLabel": "Hours",
-    "hoursValue": "Mon-Fri: 9AM - 5PM",
+    "hoursValue": "Mon-Fri: 5PM - 9PM",
     "copyright": "Serenity Behavioral Services. All Rights Reserved.",
-    "copyrightSuffix": "Medicaid Provider Type 14",
+    "copyrightSuffix": "Licensed Behavioral Health Provider",
     "serviceLinks": {
       "0": "Mental Health Evaluations",
       "1": "Individual Psychotherapy",
@@ -417,11 +502,11 @@
     "telehealth": "Telehealth",
     "vseePlatform": "VSee Platform",
     "location": "Location",
-    "lasVegas": "Las Vegas, NV"
+    "lasVegas": "4680 S Eastern Ave. Suite B, Las Vegas, NV 89119"
   },
   "meta": {
     "homeTitle": "Evidence-Based Behavioral Health Care",
-    "homeDescription": "Serenity Behavioral Services provides comprehensive, evidence-based behavioral health care in Las Vegas, Nevada. Trusted by courts, community partners, and individuals. Medicaid Provider Type 14."
+    "homeDescription": "Serenity Behavioral Services provides comprehensive, evidence-based behavioral health care in Las Vegas, Nevada. Trusted by courts, community partners, and individuals."
   },
   "scrollToTop": {
     "ariaLabel": "Scroll to top"

@@ -47,7 +47,7 @@ withDefaults(defineProps<Props>(), {
     <p
       v-if="description"
       v-reveal="{ delay: 200 }"
-      class="mt-4 text-base lg:text-lg leading-relaxed"
+      class="mt-4 text-base lg:text-lg leading-relaxed whitespace-pre-line"
       :class="dark ? 'text-white/60' : 'text-navy-600'"
     >
       {{ description }}
