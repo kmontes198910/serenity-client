@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ArrowRight } from 'lucide-vue-next'
+import { ArrowRight, Languages } from 'lucide-vue-next'
 
 const { t } = useI18n()
 const { members } = useStaff()
@@ -80,6 +80,10 @@ const { members } = useStaff()
                   class="px-2 py-0.5 rounded text-[10px] font-medium bg-navy-50 text-navy-600"
                 >
                   {{ specialty }}
+                </span>
+                <span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded text-[10px] font-medium bg-emerald-50 text-emerald-700">
+                  <Languages class="h-2.5 w-2.5" />
+                  {{ t('labels.bilingual') }}
                 </span>
               </div>
               <NuxtLink :to="`/#contact-${member.id}`" class="w-8 h-8 rounded-full bg-navy-50 group-hover:bg-accent-400 flex items-center justify-center transition-colors">

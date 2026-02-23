@@ -44,7 +44,8 @@
     "message": "Message",
     "clinicalDirector": "Clinical Director",
     "callUs": "Call Us",
-    "preferredClinician": "Preferred Clinician"
+    "preferredClinician": "Preferred Clinician",
+    "bilingual": "English / Spanish"
   },
   "placeholders": {
     "yourFullName": "Your full name",
