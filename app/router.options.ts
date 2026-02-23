@@ -7,8 +7,9 @@ export default {
     }
 
     if (to.hash) {
+      const hash = to.hash.startsWith('#contact-') ? '#contact' : to.hash
       return {
-        el: to.hash,
+        el: hash,
         top: 80,
         behavior: 'smooth',
       }

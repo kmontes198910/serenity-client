@@ -23,6 +23,7 @@ export interface StaffMember {
   initials: string
   gradientFrom: string
   gradientTo: string
+  image?: string
 }
 
 export interface Stat {

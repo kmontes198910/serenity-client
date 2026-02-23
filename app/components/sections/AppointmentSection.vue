@@ -2,14 +2,27 @@
 import { Send, Phone, Mail, MapPin, Clock } from 'lucide-vue-next'
 
 const { t } = useI18n()
+const route = useRoute()
+const { members } = useStaff()
 
 const form = reactive({
   name: '',
   email: '',
   phone: '',
   service: '',
+  clinician: '',
   message: '',
 })
+
+watch(() => route.hash, (hash) => {
+  if (hash.startsWith('#contact-')) {
+    const clinicianId = hash.replace('#contact-', '')
+    const member = members.value.find(m => m.id === clinicianId)
+    if (member) {
+      form.clinician = member.name
+    }
+  }
+}, { immediate: true })
 
 const serviceOptions = computed(() => [
   t('appointment.serviceOptions.0'),
@@ -25,7 +38,7 @@ const serviceOptions = computed(() => [
 function handleSubmit() {
   const subject = encodeURIComponent(`Appointment Request - ${form.service || 'General'}`)
   const body = encodeURIComponent(
-    `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nService: ${form.service}\n\nMessage:\n${form.message}`,
+    `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nService: ${form.service}\nPreferred Clinician: ${form.clinician || 'No preference'}\n\nMessage:\n${form.message}`,
   )
   window.location.href = `mailto:serenitybslv@gmail.com?subject=${subject}&body=${body}`
 }
@@ -148,6 +161,17 @@ function handleSubmit() {
                   <option v-for="s in serviceOptions" :key="s" :value="s">{{ s }}</option>
                 </select>
               </div>
+            </div>
+
+            <div class="mb-4">
+              <label class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.preferredClinician') }}</label>
+              <select
+                v-model="form.clinician"
+                class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-navy-900 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-all bg-white"
+              >
+                <option value="">{{ t('placeholders.selectClinician') }}</option>
+                <option v-for="m in members" :key="m.id" :value="m.name">{{ m.name }} — {{ m.credentials }}</option>
+              </select>
             </div>
 
             <div class="mb-6">

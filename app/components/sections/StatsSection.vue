@@ -6,7 +6,7 @@ const { t } = useI18n()
 const stats = computed(() => [
   { icon: Stethoscope, value: 9, suffix: '+', label: t('stats.servicesOffered') },
   { icon: Award, value: 8, suffix: '+', label: t('stats.treatmentPrograms') },
-  { icon: Clock, value: 1, suffix: '', label: t('stats.licensedClinicians') },
+  { icon: Clock, value: 6, suffix: '', label: t('stats.licensedClinicians') },
   { icon: Heart, value: 100, suffix: '%', label: t('stats.evidenceBasedCare') },
 ])
 </script>

@@ -31,7 +31,7 @@
   },
   "labels": {
     "phone": "Teléfono",
-    "alternative": "Alternativo",
+    "alternative": "Fax",
     "email": "Correo Electrónico",
     "location": "Ubicación",
     "contactUs": "Contáctenos",
@@ -43,13 +43,15 @@
     "service": "Servicio",
     "message": "Mensaje",
     "clinicalDirector": "Directora Clínica",
-    "callUs": "Llámenos"
+    "callUs": "Llámenos",
+    "preferredClinician": "Clínico Preferido"
   },
   "placeholders": {
     "yourFullName": "Su nombre completo",
     "yourEmail": "su{'@'}correo.com",
     "phoneNumber": "(702) 000-0000",
     "selectService": "Seleccione un servicio",
+    "selectClinician": "Sin preferencia",
     "tellUsNeeds": "Cuéntenos sobre sus necesidades..."
   },
   "hero": {
@@ -84,7 +86,7 @@
       "5": "Telesalud vía Plataforma VSee"
     },
     "hours": {
-      "0": { "day": "Lunes - Viernes", "time": "5:00 PM - 9:00 PM" },
+      "0": { "day": "Lunes - Viernes", "time": "9:00 AM - 9:00 PM" },
       "1": { "day": "Sábado", "time": "Con Cita" },
       "2": { "day": "Domingo", "time": "Cerrado" }
     }
@@ -292,7 +294,7 @@
       },
       "3": {
         "title": "Experiencia Clínica",
-        "description": "Personal con QMHP, FNP y entrenamiento en EMDR brinda atención que cumple con los más altos estándares clínicos."
+        "description": "Personal LCSW, PMHNP, QMHA y QBA brinda atención que cumple con los más altos estándares clínicos."
       }
     }
   },

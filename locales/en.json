@@ -31,7 +31,7 @@
   },
   "labels": {
     "phone": "Phone",
-    "alternative": "Alternative",
+    "alternative": "Fax",
     "email": "Email",
     "location": "Location",
     "contactUs": "Contact Us",
@@ -43,13 +43,15 @@
     "service": "Service",
     "message": "Message",
     "clinicalDirector": "Clinical Director",
-    "callUs": "Call Us"
+    "callUs": "Call Us",
+    "preferredClinician": "Preferred Clinician"
   },
   "placeholders": {
     "yourFullName": "Your full name",
     "yourEmail": "your{'@'}email.com",
     "phoneNumber": "(702) 000-0000",
     "selectService": "Select a service",
+    "selectClinician": "No preference",
     "tellUsNeeds": "Tell us about your needs..."
   },
   "hero": {
@@ -84,7 +86,7 @@
       "5": "Telehealth via VSee Platform"
     },
     "hours": {
-      "0": { "day": "Monday - Friday", "time": "5:00 PM - 9:00 PM" },
+      "0": { "day": "Monday - Friday", "time": "9:00 AM - 9:00 PM" },
       "1": { "day": "Saturday", "time": "By Appointment" },
       "2": { "day": "Sunday", "time": "Closed" }
     }
@@ -292,7 +294,7 @@
       },
       "3": {
         "title": "Clinical Expertise",
-        "description": "QMHP, FNP and EMDR-trained staff deliver care that meets the highest clinical standards."
+        "description": "LCSW, PMHNP, QMHA, QBA deliver care that meets the highest clinical standards."
       }
     }
   },
