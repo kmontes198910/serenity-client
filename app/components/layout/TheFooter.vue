@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Phone, Mail, Clock, MapPin } from 'lucide-vue-next'
+import { Phone, Mail, Clock, MapPin, Printer } from 'lucide-vue-next'
 
 const { t } = useI18n()
 const currentYear = new Date().getFullYear()
@@ -110,9 +110,9 @@ const quickLinks = computed(() => [
               </a>
             </li>
             <li>
-              <a href="tel:+17025526881" class="flex items-start gap-3 text-base text-white/50 hover:text-accent-400 transition-colors">
-                <Phone class="h-4 w-4 text-accent-400 mt-0.5 shrink-0" />
-                (702) 552-6881
+              <a href="fax:+17025526881" class="flex items-start gap-3 text-base text-white/50 hover:text-accent-400 transition-colors">
+                <Printer class="h-4 w-4 text-accent-400 mt-0.5 shrink-0" />
+                Fax: (702) 552-6881
               </a>
             </li>
             <li>
