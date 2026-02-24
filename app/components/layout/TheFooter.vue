@@ -73,7 +73,7 @@ const quickLinks = computed(() => [
 
         <!-- Services -->
         <div>
-          <h4 class="text-lg font-heading font-bold text-white mb-5">{{ t('footer.servicesHeading') }}</h4>
+          <h3 class="text-lg font-heading font-bold text-white mb-5">{{ t('footer.servicesHeading') }}</h3>
           <ul class="space-y-3">
             <li v-for="link in serviceLinks" :key="link.label">
               <NuxtLink :to="link.to" class="text-base text-white/50 hover:text-accent-400 transition-colors">
@@ -85,7 +85,7 @@ const quickLinks = computed(() => [
 
         <!-- Quick Links -->
         <div>
-          <h4 class="text-lg font-heading font-bold text-white mb-5">{{ t('footer.quickLinksHeading') }}</h4>
+          <h3 class="text-lg font-heading font-bold text-white mb-5">{{ t('footer.quickLinksHeading') }}</h3>
           <ul class="space-y-3">
             <li v-for="link in quickLinks" :key="link.label">
               <NuxtLink :to="link.to" class="text-base text-white/50 hover:text-accent-400 transition-colors">
@@ -97,7 +97,7 @@ const quickLinks = computed(() => [
 
         <!-- Contact -->
         <div>
-          <h4 class="text-lg font-heading font-bold text-white mb-5">{{ t('footer.contactHeading') }}</h4>
+          <h3 class="text-lg font-heading font-bold text-white mb-5">{{ t('footer.contactHeading') }}</h3>
           <ul class="space-y-4">
             <li class="flex items-start gap-3">
               <MapPin class="h-4 w-4 text-accent-400 mt-0.5 shrink-0" />
@@ -110,10 +110,10 @@ const quickLinks = computed(() => [
               </a>
             </li>
             <li>
-              <a href="fax:+17025526881" class="flex items-start gap-3 text-base text-white/50 hover:text-accent-400 transition-colors">
+              <div class="flex items-start gap-3 text-base text-white/50">
                 <Printer class="h-4 w-4 text-accent-400 mt-0.5 shrink-0" />
                 Fax: (702) 552-6881
-              </a>
+              </div>
             </li>
             <li>
               <a href="mailto:serenitybslv@gmail.com" class="flex items-start gap-3 text-base text-white/50 hover:text-accent-400 transition-colors">

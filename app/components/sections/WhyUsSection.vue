@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { FileCheck2, Handshake, ShieldAlert, Stethoscope, CheckCircle, ArrowRight } from 'lucide-vue-next'
+import { FileCheck2, Handshake, ShieldAlert, Stethoscope, ArrowRight } from 'lucide-vue-next'
 
 const { t } = useI18n()
 
@@ -49,7 +49,7 @@ const pillars = computed(() =>
           <div class="space-y-5">
             <div
               v-for="(pillar, index) in pillars"
-              :key="index"
+              :key="pillar.title"
               v-reveal:left="{ delay: index * 100 }"
               class="flex gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors"
             >

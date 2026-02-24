@@ -39,7 +39,7 @@ const conditions = computed(() =>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div
           v-for="(condition, index) in conditions"
-          :key="index"
+          :key="condition.title"
           v-reveal:scale="{ delay: index * 80 }"
           class="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-7 hover:bg-white/10 hover:border-accent-400/30 transition-all duration-300"
         >

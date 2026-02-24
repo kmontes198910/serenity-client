@@ -1,6 +1,7 @@
 export function useCountUp(target: number, duration: number = 2000) {
   const count = ref(0)
   const hasAnimated = ref(false)
+  let rafId: number | null = null
 
   function start() {
     if (hasAnimated.value) return
@@ -16,12 +17,21 @@ export function useCountUp(target: number, duration: number = 2000) {
       count.value = Math.round(eased * target)
 
       if (progress < 1) {
-        requestAnimationFrame(animate)
+        rafId = requestAnimationFrame(animate)
+      } else {
+        rafId = null
       }
     }
 
-    requestAnimationFrame(animate)
+    rafId = requestAnimationFrame(animate)
   }
 
-  return { count, start }
+  function stop() {
+    if (rafId !== null) {
+      cancelAnimationFrame(rafId)
+      rafId = null
+    }
+  }
+
+  return { count, start, stop }
 }

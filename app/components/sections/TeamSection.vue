@@ -86,7 +86,7 @@ const { members } = useStaff()
                   {{ t('labels.bilingual') }}
                 </span>
               </div>
-              <NuxtLink :to="`/#contact-${member.id}`" class="w-8 h-8 rounded-full bg-navy-50 group-hover:bg-accent-400 flex items-center justify-center transition-colors">
+              <NuxtLink :to="`/#contact-${member.id}`" :aria-label="`Book appointment with ${member.name}`" class="w-8 h-8 rounded-full bg-navy-50 group-hover:bg-accent-400 flex items-center justify-center transition-colors">
                 <ArrowRight class="h-3.5 w-3.5 text-navy-400 group-hover:text-navy-900 transition-colors" />
               </NuxtLink>
             </div>

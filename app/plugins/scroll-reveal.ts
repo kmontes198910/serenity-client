@@ -32,7 +32,15 @@ export default defineNuxtPlugin((nuxtApp) => {
         { threshold: 0.1, rootMargin: '0px 0px -40px 0px' },
       )
 
+      ;(el as any).__revealObserver = observer
       observer.observe(el)
+    },
+    unmounted(el: HTMLElement) {
+      const observer = (el as any).__revealObserver as IntersectionObserver | undefined
+      if (observer) {
+        observer.disconnect()
+        delete (el as any).__revealObserver
+      }
     },
   })
 })

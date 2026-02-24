@@ -79,7 +79,9 @@ function isActive(to: string) {
 
         <!-- Mobile toggle -->
         <button
+          type="button"
           class="lg:hidden p-2 text-white ml-auto"
+          :aria-label="isMobileOpen ? 'Close navigation menu' : 'Open navigation menu'"
           @click="isMobileOpen = !isMobileOpen"
         >
           <Menu v-if="!isMobileOpen" class="h-6 w-6" />

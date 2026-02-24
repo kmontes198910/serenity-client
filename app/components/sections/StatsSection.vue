@@ -17,7 +17,7 @@ const stats = computed(() => [
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4">
         <div
           v-for="(stat, i) in stats"
-          :key="i"
+          :key="stat.label"
           v-reveal="{ delay: i * 100 }"
           class="flex items-center gap-4 lg:justify-center"
         >

@@ -4,13 +4,24 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: process.env.NODE_ENV !== 'production' },
 
+  devServer: {
+    host: '0.0.0.0',
+  },
+
   experimental: {
     typedPages: true,
   },
 
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
       script: [
+        {
+          innerHTML: '(function(){if(typeof crypto!=="undefined"&&typeof crypto.randomUUID!=="function"){crypto.randomUUID=function(){var b=crypto.getRandomValues(new Uint8Array(16));b[6]=(b[6]&0x0f)|0x40;b[8]=(b[8]&0x3f)|0x80;var h=[].map.call(b,function(x){return x.toString(16).padStart(2,"0")}).join("");return h.slice(0,8)+"-"+h.slice(8,12)+"-"+h.slice(12,16)+"-"+h.slice(16,20)+"-"+h.slice(20)}}})()',
+          tagPosition: 'head',
+        },
         {
           innerHTML: '(function(){try{var t=localStorage.getItem("serenity-theme");if(t&&t!=="default"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}})()',
           tagPosition: 'head',
@@ -99,6 +110,7 @@ export default defineNuxtConfig({
   },
 
   ogImage: {
+    enabled: process.env.NODE_ENV === 'production',
     defaults: {
       component: 'OgImageDefault',
     },

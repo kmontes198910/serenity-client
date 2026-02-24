@@ -45,7 +45,8 @@
     "clinicalDirector": "Directora Clínica",
     "callUs": "Llámenos",
     "preferredClinician": "Clínico Preferido",
-    "bilingual": "Inglés / Español"
+    "bilingual": "Inglés / Español",
+    "fax": "Fax"
   },
   "placeholders": {
     "yourFullName": "Su nombre completo",
@@ -508,10 +509,13 @@
     "lasVegas": "4680 S Eastern Ave. Suite B, Las Vegas, NV 89119"
   },
   "meta": {
-    "homeTitle": "Atención de Salud Conductual Basada en Evidencia",
+    "homeTitle": "Salud Conductual Las Vegas",
     "homeDescription": "Serenity Behavioral Services brinda atención integral de salud conductual basada en evidencia en Las Vegas, Nevada. Confianza de tribunales, socios comunitarios e individuos."
   },
   "scrollToTop": {
     "ariaLabel": "Volver arriba"
+  },
+  "a11y": {
+    "skipToContent": "Saltar al contenido principal"
   }
 }

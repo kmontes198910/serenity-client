@@ -72,15 +72,15 @@ function handleSubmit() {
                 <p class="text-white font-bold">(702) 665-5035</p>
               </div>
             </a>
-            <a href="fax:+17025526881" class="flex items-center gap-4 group">
-              <div class="w-12 h-12 rounded-full bg-accent-400/10 flex items-center justify-center group-hover:bg-accent-400/20 transition-colors">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-accent-400/10 flex items-center justify-center">
                 <Printer class="h-5 w-5 text-accent-400" />
               </div>
               <div>
-                <p class="text-xs text-white/50 font-medium">Fax</p>
+                <p class="text-xs text-white/50 font-medium">{{ t('labels.fax') }}</p>
                 <p class="text-white font-bold">(702) 552-6881</p>
               </div>
-            </a>
+            </div>
             <a href="mailto:serenitybslv@gmail.com" class="flex items-center gap-4 group">
               <div class="w-12 h-12 rounded-full bg-accent-400/10 flex items-center justify-center group-hover:bg-accent-400/20 transition-colors">
                 <Mail class="h-5 w-5 text-accent-400" />
@@ -120,8 +120,9 @@ function handleSubmit() {
           >
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
               <div>
-                <label class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.fullName') }}</label>
+                <label for="appointment-name" class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.fullName') }}</label>
                 <input
+                  id="appointment-name"
                   v-model="form.name"
                   type="text"
                   required
@@ -130,8 +131,9 @@ function handleSubmit() {
                 />
               </div>
               <div>
-                <label class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.email') }}</label>
+                <label for="appointment-email" class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.email') }}</label>
                 <input
+                  id="appointment-email"
                   v-model="form.email"
                   type="email"
                   required
@@ -143,8 +145,9 @@ function handleSubmit() {
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
               <div>
-                <label class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.phone') }}</label>
+                <label for="appointment-phone" class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.phone') }}</label>
                 <input
+                  id="appointment-phone"
                   v-model="form.phone"
                   type="tel"
                   :placeholder="t('placeholders.phoneNumber')"
@@ -152,8 +155,9 @@ function handleSubmit() {
                 />
               </div>
               <div>
-                <label class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.service') }}</label>
+                <label for="appointment-service" class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.service') }}</label>
                 <select
+                  id="appointment-service"
                   v-model="form.service"
                   class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-navy-900 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-all bg-white"
                 >
@@ -164,8 +168,9 @@ function handleSubmit() {
             </div>
 
             <div class="mb-4">
-              <label class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.preferredClinician') }}</label>
+              <label for="appointment-clinician" class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.preferredClinician') }}</label>
               <select
+                id="appointment-clinician"
                 v-model="form.clinician"
                 class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-navy-900 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-all bg-white"
               >
@@ -175,8 +180,9 @@ function handleSubmit() {
             </div>
 
             <div class="mb-6">
-              <label class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.message') }}</label>
+              <label for="appointment-message" class="block text-xs font-bold text-navy-700 uppercase tracking-wider mb-2">{{ t('labels.message') }}</label>
               <textarea
+                id="appointment-message"
                 v-model="form.message"
                 rows="4"
                 :placeholder="t('placeholders.tellUsNeeds')"

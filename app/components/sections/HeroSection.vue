@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ArrowRight, Phone, CheckCircle, HeartHandshake, Award, Shield, Brain, Video } from 'lucide-vue-next'
+import { ArrowRight, Phone, CheckCircle, HeartHandshake, Award, Brain, Video } from 'lucide-vue-next'
 
 const { t } = useI18n()
 

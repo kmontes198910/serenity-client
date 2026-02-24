@@ -32,6 +32,7 @@ onUnmounted(() => {
   >
     <button
       v-if="isVisible"
+      type="button"
       class="fixed bottom-6 right-6 z-50 w-12 h-12 rounded-full bg-accent-400 hover:bg-accent-300 text-navy-900 shadow-lg shadow-accent-400/30 flex items-center justify-center transition-colors"
       :aria-label="t('scrollToTop.ariaLabel')"
       @click="scrollToTop"

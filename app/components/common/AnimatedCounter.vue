@@ -13,22 +13,30 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const el = ref<HTMLElement | null>(null)
-const { count, start } = useCountUp(props.target, props.duration)
+const { count, start, stop } = useCountUp(props.target, props.duration)
+let observer: IntersectionObserver | null = null
 
 onMounted(() => {
   if (!el.value) return
 
-  const observer = new IntersectionObserver(
+  observer = new IntersectionObserver(
     (entries) => {
       if (entries[0].isIntersecting) {
         start()
-        observer.disconnect()
+        observer?.disconnect()
+        observer = null
       }
     },
     { threshold: 0.3 },
   )
 
   observer.observe(el.value)
+})
+
+onUnmounted(() => {
+  observer?.disconnect()
+  observer = null
+  stop()
 })
 </script>
 

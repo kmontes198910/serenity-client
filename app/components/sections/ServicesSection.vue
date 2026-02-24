@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { Component } from 'vue'
 import {
   ClipboardCheck,
   Stethoscope,
@@ -21,7 +22,13 @@ const { services } = useServices()
 const selectedService = ref<Service | null>(null)
 const isModalOpen = ref(false)
 
-const iconMap: Record<string, ReturnType<typeof defineComponent>> = {
+if (import.meta.client) {
+  watch(selectedService, (val) => {
+    document.body.style.overflow = val ? 'hidden' : ''
+  })
+}
+
+const iconMap: Record<string, Component> = {
   'clipboard-check': ClipboardCheck,
   'stethoscope': Stethoscope,
   'scale': Scale,
@@ -94,6 +101,10 @@ function closeModal() {
         <div
           v-if="isModalOpen"
           class="fixed inset-0 z-50 flex items-center justify-center p-4"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="service-modal-title"
+          @keydown.escape="closeModal"
         >
           <!-- Backdrop -->
           <div
@@ -113,11 +124,13 @@ function closeModal() {
                   <div class="w-14 h-14 rounded-xl bg-accent-50 flex items-center justify-center shrink-0">
                     <component :is="iconMap[selectedService.icon]" class="h-6 w-6 text-accent-500" />
                   </div>
-                  <h3 class="text-xl font-heading font-bold text-navy-900">
+                  <h3 id="service-modal-title" class="text-xl font-heading font-bold text-navy-900">
                     {{ selectedService.title }}
                   </h3>
                 </div>
                 <button
+                  type="button"
+                  aria-label="Close service details"
                   class="w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors shrink-0"
                   @click="closeModal"
                 >

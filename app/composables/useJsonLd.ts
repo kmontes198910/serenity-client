@@ -33,7 +33,7 @@ export function createLocalBusinessSchema(): WithContext<LocalBusiness> {
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '17:00',
+        opens: '09:00',
         closes: '21:00',
       },
     ],

@@ -45,12 +45,13 @@ function toggle(index: number) {
         <div class="space-y-3">
           <div
             v-for="(faq, index) in faqs"
-            :key="index"
+            :key="faq.question"
             v-reveal="{ delay: index * 60 }"
             class="border border-gray-100 rounded-xl overflow-hidden transition-all"
             :class="openIndex === index ? 'bg-navy-50 border-navy-200' : 'bg-white hover:bg-gray-50'"
           >
             <button
+              type="button"
               class="w-full flex items-center justify-between gap-4 p-5 text-left"
               @click="toggle(index)"
             >

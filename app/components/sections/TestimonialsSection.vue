@@ -57,12 +57,16 @@ const current = computed(() => testimonials.value[currentIndex.value])
           <!-- Indicators -->
           <div class="flex items-center gap-4 mt-8">
             <button
+              type="button"
+              aria-label="Previous testimonial"
               class="w-12 h-12 rounded-full border-2 border-navy-200 hover:border-accent-400 hover:bg-accent-50 flex items-center justify-center transition-all"
               @click="prev"
             >
               <ChevronLeft class="h-5 w-5 text-navy-600" />
             </button>
             <button
+              type="button"
+              aria-label="Next testimonial"
               class="w-12 h-12 rounded-full border-2 border-navy-200 hover:border-accent-400 hover:bg-accent-50 flex items-center justify-center transition-all"
               @click="next"
             >

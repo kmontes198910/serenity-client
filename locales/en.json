@@ -45,7 +45,8 @@
     "clinicalDirector": "Clinical Director",
     "callUs": "Call Us",
     "preferredClinician": "Preferred Clinician",
-    "bilingual": "English / Spanish"
+    "bilingual": "English / Spanish",
+    "fax": "Fax"
   },
   "placeholders": {
     "yourFullName": "Your full name",
@@ -59,7 +60,7 @@
     "title": "Integrated Psychiatric &",
     "highlight": "Behavioral",
     "titleEnd": "Health Care",
-    "subtitle": "Evidence-based therapy, medication management, and rehabilitation services delivered under licensed medical supervision in Nevada. Trusted by courts, community partners, and individual for quality outpatient treatment.",
+    "subtitle": "Evidence-based therapy, medication management, and rehabilitation services delivered under licensed medical supervision in Nevada. Trusted by courts, community partners, and individuals for quality outpatient treatment.",
     "nowOpen": "Now Open",
     "acceptingReferrals": "Accepting Referrals",
     "licensedClinicalStaff": "Licensed Clinical Staff",
@@ -508,10 +509,13 @@
     "lasVegas": "4680 S Eastern Ave. Suite B, Las Vegas, NV 89119"
   },
   "meta": {
-    "homeTitle": "Evidence-Based Behavioral Health Care",
+    "homeTitle": "Behavioral Health Care",
     "homeDescription": "Serenity Behavioral Services provides comprehensive, evidence-based behavioral health care in Las Vegas, Nevada. Trusted by courts, community partners, and individuals."
   },
   "scrollToTop": {
     "ariaLabel": "Scroll to top"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content"
   }
 }
