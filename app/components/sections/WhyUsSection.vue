@@ -15,11 +15,11 @@ const pillars = computed(() =>
 </script>
 
 <template>
-  <section class="py-20 lg:py-28 bg-navy-900 relative overflow-hidden">
+  <section class="fluid-section-y bg-navy-900 relative overflow-hidden">
     <!-- Pattern background -->
     <div class="absolute inset-0 pattern-cross" />
 
-    <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="relative z-10 mx-auto max-w-7xl fluid-section-x">
       <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         <!-- Left: Image area -->
         <div v-reveal:left class="relative">
@@ -57,7 +57,7 @@ const pillars = computed(() =>
                 <component :is="pillar.icon" class="h-5 w-5 text-accent-400" />
               </div>
               <div>
-                <h3 class="font-heading font-bold text-white mb-1">{{ pillar.title }}</h3>
+                <h3 class="font-heading font-bold text-white mb-1 fluid-h3">{{ pillar.title }}</h3>
                 <p class="text-sm text-white/50 leading-relaxed">{{ pillar.description }}</p>
               </div>
             </div>

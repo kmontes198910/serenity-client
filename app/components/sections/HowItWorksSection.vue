@@ -17,8 +17,8 @@ const steps = computed(() =>
 </script>
 
 <template>
-  <section class="py-20 lg:py-28 bg-gray-50">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+  <section class="fluid-section-y bg-gray-50">
+    <div class="mx-auto max-w-7xl fluid-section-x">
       <CommonSectionHeading
         :overline="t('howItWorks.overline')"
         :title="t('howItWorks.title')"
@@ -50,7 +50,7 @@ const steps = computed(() =>
           </div>
 
           <!-- Content -->
-          <h3 class="font-heading font-bold text-navy-900 text-lg mb-2">
+          <h3 class="font-heading font-bold text-navy-900 fluid-h3 mb-2">
             {{ step.title }}
           </h3>
           <p class="text-sm text-navy-500 leading-relaxed max-w-xs mx-auto">

@@ -51,8 +51,8 @@ function closeModal() {
 </script>
 
 <template>
-  <section class="py-20 lg:py-28 bg-gray-50">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+  <section class="fluid-section-y bg-gray-50">
+    <div class="mx-auto max-w-7xl fluid-section-x">
       <CommonSectionHeading
         :overline="t('services.overline')"
         :title="t('services.title')"
@@ -77,7 +77,7 @@ function closeModal() {
           </div>
 
           <!-- Content -->
-          <h3 class="text-lg font-heading font-bold text-navy-900 mb-2">
+          <h3 class="fluid-h3 font-heading font-bold text-navy-900 mb-2">
             {{ service.title }}
           </h3>
           <p class="text-sm text-navy-500 leading-relaxed line-clamp-3 flex-1">

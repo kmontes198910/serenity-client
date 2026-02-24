@@ -18,8 +18,8 @@ function toggle(index: number) {
 </script>
 
 <template>
-  <section class="pt-20 lg:pt-28 bg-white">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+  <section class="fluid-section-pt bg-white">
+    <div class="mx-auto max-w-7xl fluid-section-x">
       <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
         <!-- Left: Heading + image -->
         <div>

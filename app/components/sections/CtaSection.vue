@@ -5,7 +5,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section class="relative py-24 lg:py-32 overflow-hidden">
+  <section class="relative fluid-section-y-lg overflow-hidden">
     <!-- Background -->
     <div class="absolute inset-0 bg-gradient-to-br from-navy-800 via-navy-900 to-navy-950" />
 
@@ -16,7 +16,7 @@ const { t } = useI18n()
     <div class="absolute top-0 right-1/4 w-[500px] h-[500px] bg-accent-400/5 rounded-full blur-[120px]" />
     <div class="absolute bottom-0 left-1/4 w-[400px] h-[400px] bg-accent-500/5 rounded-full blur-[100px]" />
 
-    <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="relative z-10 mx-auto max-w-7xl fluid-section-x">
       <div class="max-w-3xl mx-auto text-center">
         <div
           v-reveal
@@ -28,7 +28,7 @@ const { t } = useI18n()
 
         <h2
           v-reveal="{ delay: 100 }"
-          class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight"
+          class="font-heading fluid-display font-bold text-white leading-tight"
         >
           {{ t('cta.title') }}
           <span class="text-accent-400">{{ t('cta.highlight') }}</span>

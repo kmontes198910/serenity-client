@@ -6,7 +6,7 @@ const { t } = useI18n()
 
 <template>
   <section class="py-16 lg:py-20 bg-gray-50">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl fluid-section-x">
       <div class="flex flex-col items-center text-center gap-8">
         <!-- Icon -->
         <div class="w-16 h-16 rounded-2xl bg-accent-50 flex items-center justify-center">
@@ -15,7 +15,7 @@ const { t } = useI18n()
 
         <!-- Text -->
         <div class="max-w-2xl">
-          <h3 class="text-3xl sm:text-4xl font-heading font-bold text-navy-900">
+          <h3 class="fluid-h3-lg font-heading font-bold text-navy-900">
             {{ t('referral.title') }}
           </h3>
           <p class="mt-4 text-lg text-navy-600 leading-relaxed">

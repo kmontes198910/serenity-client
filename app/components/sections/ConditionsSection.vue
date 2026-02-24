@@ -23,11 +23,11 @@ const conditions = computed(() =>
 </script>
 
 <template>
-  <section class="py-20 lg:py-28 bg-navy-900 relative overflow-hidden">
+  <section class="fluid-section-y bg-navy-900 relative overflow-hidden">
     <!-- Pattern -->
     <div class="absolute inset-0 pattern-cross" />
 
-    <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="relative z-10 mx-auto max-w-7xl fluid-section-x">
       <CommonSectionHeading
         :overline="t('conditions.overline')"
         :title="t('conditions.title')"
@@ -49,7 +49,7 @@ const conditions = computed(() =>
           </div>
 
           <!-- Content -->
-          <h3 class="text-lg font-heading font-bold text-white mb-2">
+          <h3 class="fluid-h3 font-heading font-bold text-white mb-2">
             {{ condition.title }}
           </h3>
           <p class="text-sm text-white/60 leading-relaxed">

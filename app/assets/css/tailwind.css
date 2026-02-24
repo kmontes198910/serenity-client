@@ -168,6 +168,52 @@
   ::-webkit-scrollbar-thumb:hover { background: var(--muted-foreground); }
 }
 
+/* ===== Fluid Typography ===== */
+.fluid-display {
+  font-size: clamp(2.25rem, 1.5rem + 3vw, 3.75rem);  /* 36px → 60px */
+}
+.fluid-h2 {
+  font-size: clamp(1.875rem, 1.25rem + 2.5vw, 2.625rem);  /* 30px → 42px */
+}
+.fluid-h3-lg {
+  font-size: clamp(1.5rem, 1.1rem + 1.5vw, 2.25rem);  /* 24px → 36px */
+}
+.fluid-h3 {
+  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.25rem);  /* 18px → 20px */
+}
+.fluid-body {
+  font-size: clamp(0.875rem, 0.8rem + 0.25vw, 1rem);  /* 14px → 16px */
+}
+.fluid-body-lg {
+  font-size: clamp(1rem, 0.9rem + 0.35vw, 1.125rem);  /* 16px → 18px */
+}
+
+/* ===== Fluid Spacing ===== */
+.fluid-section-y {
+  padding-top: clamp(5rem, 3.5rem + 4vw, 7rem);       /* 80px → 112px */
+  padding-bottom: clamp(5rem, 3.5rem + 4vw, 7rem);
+}
+.fluid-section-y-lg {
+  padding-top: clamp(6rem, 4rem + 5vw, 8rem);
+  padding-bottom: clamp(6rem, 4rem + 5vw, 8rem);
+}
+.fluid-section-pt {
+  padding-top: clamp(5rem, 3.5rem + 4vw, 7rem);
+}
+.fluid-section-x {
+  padding-left: clamp(1rem, 0.5rem + 2vw, 2rem);      /* 16px → 32px */
+  padding-right: clamp(1rem, 0.5rem + 2vw, 2rem);
+}
+.fluid-gap {
+  gap: clamp(1.5rem, 1rem + 1.5vw, 2rem);             /* 24px → 32px */
+}
+.fluid-gap-lg {
+  gap: clamp(2rem, 1rem + 3vw, 4rem);                  /* 32px → 64px */
+}
+.fluid-mb-section {
+  margin-bottom: clamp(2.5rem, 1.5rem + 3vw, 4rem);   /* 40px → 64px */
+}
+
 /* Scroll reveal */
 .reveal-hidden {
   opacity: 0;
