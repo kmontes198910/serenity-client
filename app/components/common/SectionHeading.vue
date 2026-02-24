@@ -18,7 +18,7 @@ withDefaults(defineProps<Props>(), {
   <div
     :class="[
       align === 'center' ? 'text-center mx-auto' : 'text-left',
-      'max-w-2xl mb-12 lg:mb-16',
+      'max-w-2xl fluid-mb-section',
     ]"
   >
     <span
@@ -33,7 +33,7 @@ withDefaults(defineProps<Props>(), {
 
     <h2
       v-reveal="{ delay: 100 }"
-      class="font-heading text-3xl sm:text-4xl lg:text-[42px] font-bold leading-tight"
+      class="font-heading fluid-h2 font-bold leading-tight"
       :class="dark ? 'text-white' : 'text-navy-900'"
     >
       <template v-if="highlight">
@@ -47,7 +47,7 @@ withDefaults(defineProps<Props>(), {
     <p
       v-if="description"
       v-reveal="{ delay: 200 }"
-      class="mt-4 text-base lg:text-lg leading-relaxed whitespace-pre-line"
+      class="mt-4 fluid-body-lg leading-relaxed whitespace-pre-line"
       :class="dark ? 'text-white/60' : 'text-navy-600'"
     >
       {{ description }}

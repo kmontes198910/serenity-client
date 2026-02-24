@@ -56,7 +56,7 @@ function cardTransform(speed: number) {
         <div class="relative z-10">
           <h1
             v-reveal="{ delay: 100 }"
-            class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] text-navy-900"
+            class="font-heading fluid-display font-bold leading-[1.1] text-navy-900"
           >
             {{ t('hero.title') }}
             <span class="relative">
@@ -70,7 +70,7 @@ function cardTransform(speed: number) {
 
           <p
             v-reveal="{ delay: 200 }"
-            class="mt-6 text-lg text-navy-600 leading-relaxed max-w-lg"
+            class="mt-6 fluid-body-lg text-navy-600 leading-relaxed max-w-lg"
           >
             {{ t('hero.subtitle') }}
           </p>

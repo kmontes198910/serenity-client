@@ -5,8 +5,8 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section class="py-20 lg:py-28 bg-gray-50">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+  <section class="fluid-section-y bg-gray-50">
+    <div class="mx-auto max-w-7xl fluid-section-x">
       <CommonSectionHeading
         :overline="t('admissions.overline')"
         :title="t('admissions.title')"
