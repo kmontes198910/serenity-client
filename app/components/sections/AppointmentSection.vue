@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Send, Phone, Mail, MapPin, Clock } from 'lucide-vue-next'
+import { Send, Phone, Mail, MapPin, Clock, Printer } from 'lucide-vue-next'
 
 const { t } = useI18n()
 const route = useRoute()
@@ -72,12 +72,12 @@ function handleSubmit() {
                 <p class="text-white font-bold">(702) 665-5035</p>
               </div>
             </a>
-            <a href="tel:+17025526881" class="flex items-center gap-4 group">
+            <a href="fax:+17025526881" class="flex items-center gap-4 group">
               <div class="w-12 h-12 rounded-full bg-accent-400/10 flex items-center justify-center group-hover:bg-accent-400/20 transition-colors">
-                <Phone class="h-5 w-5 text-accent-400" />
+                <Printer class="h-5 w-5 text-accent-400" />
               </div>
               <div>
-                <p class="text-xs text-white/50 font-medium">{{ t('labels.alternative') }}</p>
+                <p class="text-xs text-white/50 font-medium">Fax</p>
                 <p class="text-white font-bold">(702) 552-6881</p>
               </div>
             </a>
