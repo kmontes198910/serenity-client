@@ -260,7 +260,7 @@
     "title": "Programe Su",
     "highlight": "Consulta",
     "description": "Dé el primer paso hacia la recuperación. Complete el formulario y nuestro equipo se comunicará con usted prontamente.",
-    "extendedHours": "Nuestro equipo ofrece horario extendido en las tardes para acomodar las necesidades de los clientes de lunes a viernes de 5pm-9pm. Incluyendo disponibilidad los sábados con cita.",
+    "extendedHours": "Nuestro equipo ofrece horario extendido para acomodar las necesidades de los clientes de lunes a viernes de 9:00 AM a 9:00 PM. Incluyendo disponibilidad los sábados con cita.",
     "emailSubject": "Solicitud de Cita - {service}",
     "serviceOptions": {
       "0": "Evaluación de Salud Mental",
