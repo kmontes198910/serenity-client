@@ -20,11 +20,68 @@ const { members } = useStaff()
           v-for="(member, index) in members"
           :key="member.id"
           v-reveal:scale="{ delay: index * 80 }"
-          class="group relative flex flex-row rounded-2xl overflow-hidden bg-white border border-gray-100 hover:shadow-xl hover:shadow-navy-100/50 transition-all duration-500 hover:-translate-y-1"
+          class="group relative rounded-2xl overflow-hidden bg-white border border-gray-100 hover:shadow-xl hover:shadow-navy-100/50 transition-all duration-500 hover:-translate-y-1 flex flex-col sm:flex-row"
         >
-          <!-- Image area (left) -->
+          <!-- Mobile layout: avatar left + name/title right, bio below -->
+          <div class="sm:hidden p-5">
+            <!-- Top row: avatar + name/title -->
+            <div class="flex items-center gap-4">
+              <div class="w-20 h-20 rounded-full overflow-hidden ring-4 ring-accent-100 shadow-lg shrink-0">
+                <img
+                  v-if="member.image"
+                  :src="member.image"
+                  :alt="member.name"
+                  class="w-full h-full object-cover object-[center_15%]"
+                  loading="lazy"
+                >
+                <div
+                  v-else
+                  class="w-full h-full flex items-center justify-center"
+                  :style="`background: linear-gradient(135deg, ${member.gradientFrom}, ${member.gradientTo})`"
+                >
+                  <span class="text-2xl font-heading font-bold text-white/80">{{ member.initials }}</span>
+                </div>
+              </div>
+              <div class="flex-1 min-w-0">
+                <h3 class="font-heading font-bold text-navy-900 text-lg leading-tight">
+                  {{ member.name }}
+                </h3>
+                <p class="text-accent-500 text-sm font-semibold mt-0.5">{{ member.title }}</p>
+                <span class="inline-block mt-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold bg-accent-50 text-accent-600 border border-accent-200">
+                  {{ member.credentials }}
+                </span>
+              </div>
+            </div>
+
+            <!-- Bio -->
+            <p class="text-sm text-navy-500 leading-relaxed mt-4 text-justify">
+              {{ member.bio }}
+            </p>
+
+            <!-- Footer -->
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <div class="flex flex-wrap gap-1">
+                <span
+                  v-for="specialty in member.specialties.slice(0, 2)"
+                  :key="specialty"
+                  class="px-2 py-0.5 rounded text-[10px] font-medium bg-navy-50 text-navy-600"
+                >
+                  {{ specialty }}
+                </span>
+                <span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded text-[10px] font-medium bg-emerald-50 text-emerald-700">
+                  <Languages class="h-2.5 w-2.5" />
+                  {{ t('labels.bilingual') }}
+                </span>
+              </div>
+              <NuxtLink :to="`/#contact-${member.id}`" :aria-label="`Book appointment with ${member.name}`" class="w-8 h-8 rounded-full bg-navy-50 group-hover:bg-accent-400 flex items-center justify-center transition-colors">
+                <ArrowRight class="h-3.5 w-3.5 text-navy-400 group-hover:text-navy-900 transition-colors" />
+              </NuxtLink>
+            </div>
+          </div>
+
+          <!-- Desktop layout: image left + content right (sm+) -->
           <div
-            class="w-40 sm:w-48 shrink-0 flex items-center justify-center relative overflow-hidden"
+            class="hidden sm:flex w-48 shrink-0 items-center justify-center relative overflow-hidden"
             :style="`background: linear-gradient(135deg, ${member.gradientFrom}, ${member.gradientTo})`"
           >
             <img
@@ -52,8 +109,8 @@ const { members } = useStaff()
             </div>
           </div>
 
-          <!-- Content (right) -->
-          <div class="flex-1 p-5 flex flex-col justify-between">
+          <!-- Content (sm+ only) -->
+          <div class="hidden sm:flex flex-1 p-5 flex-col justify-between">
             <div>
               <div class="flex items-start justify-between gap-2">
                 <div>

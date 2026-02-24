@@ -23,7 +23,7 @@ const selectedService = ref<Service | null>(null)
 const isModalOpen = ref(false)
 
 if (import.meta.client) {
-  watch(selectedService, (val) => {
+  watch(isModalOpen, (val) => {
     document.body.style.overflow = val ? 'hidden' : ''
   })
 }
@@ -65,7 +65,7 @@ function closeModal() {
           v-for="(service, index) in services"
           :key="service.id"
           v-reveal:scale="{ delay: index * 60 }"
-          class="service-card group relative bg-white rounded-2xl p-7 border border-gray-100 cursor-pointer flex flex-col h-[280px]"
+          class="service-card group relative bg-white rounded-2xl p-7 border border-gray-100 cursor-pointer flex flex-col h-[320px]"
           @click="openModal(service)"
         >
           <!-- Dot -->
@@ -80,7 +80,7 @@ function closeModal() {
           <h3 class="fluid-h3 font-heading font-bold text-navy-900 mb-2">
             {{ service.title }}
           </h3>
-          <p class="text-sm text-navy-500 leading-relaxed line-clamp-3 flex-1">
+          <p class="text-sm text-navy-500 leading-relaxed line-clamp-5 flex-1">
             {{ service.description }}
           </p>
 

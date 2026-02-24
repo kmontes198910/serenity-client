@@ -42,20 +42,20 @@ function isActive(to: string) {
 
 <template>
   <header class="sticky top-0 z-50 bg-navy-700 shadow-lg shadow-navy-900/20">
-    <div class="px-4 sm:px-6 xl:px-12">
-      <nav class="flex items-center h-16 lg:h-[72px] gap-8">
+    <div class="px-4 sm:px-6 xl:px-8 2xl:px-12">
+      <nav class="flex items-center h-16 lg:h-14 xl:h-16 2xl:h-[72px] gap-4 xl:gap-6 2xl:gap-8">
         <!-- Logo -->
-        <NuxtLink to="/#hero" class="flex items-center gap-3">
-          <img src="/logo.png" alt="Serenity Behavioral Services" class="h-14 w-auto brightness-0 invert" />
+        <NuxtLink to="/#hero" class="flex items-center gap-3 shrink-0">
+          <img src="/logo.png" alt="Serenity Behavioral Services" class="h-10 xl:h-12 2xl:h-14 w-auto brightness-0 invert" />
         </NuxtLink>
 
         <!-- Desktop nav -->
-        <div class="hidden lg:flex items-center gap-1">
+        <div class="hidden lg:flex items-center gap-0 xl:gap-0.5 2xl:gap-1">
           <NuxtLink
             v-for="item in items"
             :key="item.to"
             :to="item.to"
-            class="nav-link relative px-5 py-2 text-base font-bold transition-colors"
+            class="nav-link relative px-2 xl:px-3 2xl:px-5 py-1.5 2xl:py-2 text-xs xl:text-sm 2xl:text-base font-bold transition-colors whitespace-nowrap"
             :class="isActive(item.to) ? 'text-accent-400' : 'text-white/80 hover:text-accent-400'"
           >
             {{ item.label }}
@@ -64,11 +64,11 @@ function isActive(to: string) {
         </div>
 
         <!-- CTA + Language -->
-        <div class="hidden lg:flex items-center gap-1 ml-auto">
+        <div class="hidden lg:flex items-center gap-1 ml-auto shrink-0">
           <CommonLanguageSwitcher />
           <NuxtLink
             to="/#contact"
-            class="btn-arrow px-6 py-2.5 bg-accent-400 hover:bg-accent-300 text-navy-900 rounded-full text-sm font-bold transition-all"
+            class="btn-arrow px-4 xl:px-5 2xl:px-6 py-2 2xl:py-2.5 bg-accent-400 hover:bg-accent-300 text-navy-900 rounded-full text-xs 2xl:text-sm font-bold transition-all"
           >
             {{ t('buttons.getStarted') }}
             <span class="arrow-icon bg-navy-800 text-white">
