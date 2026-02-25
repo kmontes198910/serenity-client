@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Send, Phone, Mail, MapPin, Clock, Printer } from 'lucide-vue-next'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 const route = useRoute()
 const { members } = useStaff()
 
@@ -33,7 +33,8 @@ const serviceOptions = computed(() => [
   t('appointment.serviceOptions.5'),
   t('appointment.serviceOptions.6'),
   t('appointment.serviceOptions.7'),
-])
+  t('appointment.serviceOptions.8'),
+].sort((a, b) => a.localeCompare(b, locale.value)))
 
 function handleSubmit() {
   const subject = encodeURIComponent(`Appointment Request - ${form.service || 'General'}`)

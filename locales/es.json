@@ -44,7 +44,7 @@
     "message": "Mensaje",
     "clinicalDirector": "Directora Clínica",
     "callUs": "Llámenos",
-    "preferredClinician": "Clínico Preferido",
+    "preferredClinician": "Proveedor de Salud Conductual Licenciado y Acreditado Preferido",
     "bilingual": "Inglés / Español",
     "fax": "Fax"
   },
@@ -88,7 +88,7 @@
       "5": "Telesalud vía Plataforma VSee"
     },
     "hours": {
-      "0": { "day": "Lunes - Viernes", "time": "9:00 AM - 9:00 PM" },
+      "0": { "day": "Lunes - Viernes", "time": "9:00 AM - 5:00 PM" },
       "1": { "day": "Sábado", "time": "Con Cita" },
       "2": { "day": "Domingo", "time": "Cerrado" }
     }
@@ -261,7 +261,7 @@
     "title": "Programe Su",
     "highlight": "Consulta",
     "description": "Dé el primer paso hacia la recuperación. Complete el formulario y nuestro equipo se comunicará con usted prontamente.",
-    "extendedHours": "Nuestro equipo ofrece horario extendido para acomodar las necesidades de los clientes de lunes a viernes de 9:00 AM a 9:00 PM. Incluyendo disponibilidad los sábados con cita.",
+    "extendedHours": "Nuestro equipo ofrece horario extendido para acomodar las necesidades de los clientes de lunes a viernes de 9:00 AM a 5:00 PM. Incluyendo disponibilidad los sábados con cita.",
     "emailSubject": "Solicitud de Cita - {service}",
     "serviceOptions": {
       "0": "Evaluación de Salud Mental",
@@ -271,7 +271,8 @@
       "4": "Tratamiento Enfocado en Trauma",
       "5": "Uso de Sustancias y Recuperación",
       "6": "Terapia Grupal",
-      "7": "Sesión de Telesalud"
+      "7": "Evaluación Psiquiátrica",
+      "8": "Sesión de Telesalud"
     }
   },
   "whyUs": {
@@ -303,8 +304,8 @@
   "team": {
     "overline": "Nuestro Equipo",
     "title": "Conozca a Nuestros",
-    "highlight": "Clínicos Expertos",
-    "description": "Un equipo dedicado de clínicos licenciados, profesionales de salud mental calificados y especialistas conductuales comprometidos con su recuperación."
+    "highlight": "Proveedores de Salud Conductual Licenciados y Acreditados",
+    "description": "Un equipo dedicado de proveedores de salud conductual licenciados y acreditados, profesionales de salud mental calificados y especialistas conductuales comprometidos con su recuperación."
   },
   "staff": {
     "elsa-villalobos": {
@@ -458,7 +459,7 @@
       },
       "5": {
         "question": "¿Qué terapias basadas en evidencia utilizan?",
-        "answer": "Nuestros clínicos utilizan CBT, DBT, ACT, REBT, EMDR, CBT Enfocada en Trauma, Terapia de Procesamiento Cognitivo, Entrevista Motivacional y Seeking Safety, entre otros enfoques validados."
+        "answer": "Nuestros proveedores de salud conductual licenciados y acreditados utilizan CBT, DBT, ACT, REBT, EMDR, CBT Enfocada en Trauma, Terapia de Procesamiento Cognitivo, Entrevista Motivacional y Seeking Safety, entre otros enfoques validados."
       }
     }
   },
@@ -481,7 +482,7 @@
     "contactHeading": "Información de Contacto",
     "getInTouch": "Comuníquese con Nosotros",
     "hoursLabel": "Horario",
-    "hoursValue": "Lun-Vie: 9:00 AM - 9:00 PM",
+    "hoursValue": "Lun-Vie: 9:00 AM - 5:00 PM",
     "copyright": "Serenity Behavioral Services. Todos los Derechos Reservados.",
     "copyrightSuffix": "Proveedor de Salud Conductual Licenciado",
     "serviceLinks": {
