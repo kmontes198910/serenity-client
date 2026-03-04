@@ -79,6 +79,7 @@
     "highlight": "Salud Conductual",
     "description": "Serenity Behavioral Services es una práctica integrada de salud psiquiátrica y conductual que sirve a la comunidad de Las Vegas. Operamos bajo supervisión clínica y médica licenciada para garantizar una atención estructurada, ética y basada en evidencia.\n\nNuestro equipo multidisciplinario trabaja colaborativamente para proporcionar planificación de tratamiento coordinada, cumplimiento regulatorio y continuidad de atención. Mantenemos un enfoque informado por trauma, culturalmente receptivo y enfocado en la recuperación, mientras colaboramos con proveedores de salud, gestores de casos y sistemas judiciales para apoyar la estabilidad a largo plazo y resultados medibles.",
     "openingHours": "Horario de Atención",
+    "openInMaps": "Abrir en Google Maps",
     "features": {
       "0": "Psicoterapia Individual y Grupal",
       "1": "Evaluaciones Referidas por Tribunales",
