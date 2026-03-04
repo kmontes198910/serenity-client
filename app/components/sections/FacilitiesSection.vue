@@ -25,18 +25,29 @@ const hours = computed(() => [
       <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         <!-- Left: Image + Hours card -->
         <div v-reveal:left class="relative">
-          <div class="relative rounded-2xl overflow-hidden shadow-xl">
-            <div class="aspect-[4/3]">
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=4680+S+Eastern+Ave+Ste+E,+Las+Vegas,+NV+89119"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block relative rounded-2xl overflow-hidden shadow-xl group cursor-pointer"
+          >
+            <div class="aspect-[4/3] relative">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.45707552006!2d-115.3660276!3d36.1145825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
-                class="w-full h-full border-0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.5!2d-115.1189!3d36.0985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c41a4e5a1b0d%3A0x0!2s4680+S+Eastern+Ave+Suite+B%2C+Las+Vegas%2C+NV+89119!5e0!3m2!1sen!2sus"
+                class="w-full h-full border-0 pointer-events-none"
                 allowfullscreen
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                title="Serenity Behavioral Services location in Las Vegas, Nevada"
+                title="Serenity Behavioral Services - 4680 S Eastern Ave Suite B, Las Vegas, NV 89119"
               />
+              <div class="absolute inset-0 bg-navy-900/0 group-hover:bg-navy-900/20 transition-colors duration-300 flex items-center justify-center">
+                <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 text-navy-800 font-bold text-sm px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
+                  <MapPin class="h-4 w-4 text-accent-500" />
+                  {{ t('facilities.openInMaps') }}
+                </span>
+              </div>
             </div>
-          </div>
+          </a>
 
           <!-- Opening hours card -->
           <div class="absolute -bottom-8 -right-4 lg:-right-8 bg-navy-800 text-white rounded-xl p-6 shadow-2xl w-72">

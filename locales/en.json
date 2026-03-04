@@ -79,6 +79,7 @@
     "highlight": "Behavioral Health",
     "description": "Serenity Behavioral Services is an integrated psychiatric and behavioral health practice serving the Las Vegas community. We operate under licensed clinical and medical supervision to ensure structured, ethical, and evidence-based care.\n\nOur multidisciplinary team works collaboratively to provide coordinated treatment planning, regulatory compliance, and continuity of care. We maintain a trauma-informed, culturally responsive, and recovery-focused approach while partnering with healthcare providers, case managers, and court systems to support long-term stability and measurable outcomes.",
     "openingHours": "Opening Hours",
+    "openInMaps": "Open in Google Maps",
     "features": {
       "0": "Individual & Group Psychotherapy",
       "1": "Court-Referred Evaluations",
