@@ -26,7 +26,7 @@ const hours = computed(() => [
         <!-- Left: Image + Hours card -->
         <div v-reveal:left class="relative">
           <a
-            href="https://www.google.com/maps/search/?api=1&query=4680+S+Eastern+Ave+Ste+E,+Las+Vegas,+NV+89119"
+            href="https://www.google.com/maps/search/?api=1&query=4680+S+Eastern+Ave+Suite+B,+Las+Vegas,+NV+89119"
             target="_blank"
             rel="noopener noreferrer"
             class="block relative rounded-2xl overflow-hidden shadow-xl group cursor-pointer"

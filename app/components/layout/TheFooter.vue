@@ -101,7 +101,7 @@ const quickLinks = computed(() => [
           <ul class="space-y-4">
             <li class="flex items-start gap-3">
               <MapPin class="h-4 w-4 text-accent-400 mt-0.5 shrink-0" />
-              <span class="text-base text-white/50">Las Vegas, Nevada</span>
+              <span class="text-base text-white/50">4680 S Eastern Ave, Suite B, Las Vegas, NV 89119</span>
             </li>
             <li>
               <a href="tel:+17026655035" class="flex items-start gap-3 text-base text-white/50 hover:text-accent-400 transition-colors">
@@ -131,7 +131,7 @@ const quickLinks = computed(() => [
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5">
         <p class="text-center text-sm text-white/40">
           &copy; {{ currentYear }} {{ t('footer.copyright') }}
-          &middot; Las Vegas, NV
+          &middot; 4680 S Eastern Ave, Suite B, Las Vegas, NV 89119
         </p>
       </div>
     </div>
